@@ -1,0 +1,16 @@
+pt-BR:
+  contracts:
+    partial_execution:
+      edit:
+        item:
+          title: Item de custo
+          total_quantity: Quantitade licitada
+          total_delivered: Quantidade entregue
+
+        button:
+          submit: Definir nova situação
+          submitting: Definindo...
+
+        notifications:
+          success: Contrato atualizado com sucesso!
+          failure: Não foi possíve atualizar o contrato.

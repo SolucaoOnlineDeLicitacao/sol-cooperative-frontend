@@ -1,0 +1,20 @@
+pt-BR:
+  navbar:
+    app: SOL
+    home: Início
+    notification: Notificações
+    covenants: Convênios
+    contracts: Contratos
+    biddings: Licitações
+    map: Mapa
+    feedbacks: Avaliações
+    profile: Meu Perfil
+    button:
+      logout:
+        label: Sair
+        labelOngoing: Saindo
+
+    notifications:
+      logout:
+        failure: Erro ao sair...
+        success: Saindo!

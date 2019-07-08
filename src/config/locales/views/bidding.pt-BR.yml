@@ -1,0 +1,145 @@
+pt-BR:
+  biddings:
+    index:
+      title: Licitações
+
+      empty: Nenhuma licitação encontrada
+
+      list:
+        title: Lista de Licitações
+
+      button:
+        new: Nova licitação
+
+      search:
+        placeholder: Busque por objeto ou número da licitação
+
+      period: Período
+
+      _index:
+        bidding_alerts:
+          waiting: A licitação está com a situação %{status}. Aguarde o revisor liberar sua licitação.
+          approved: A licitação está com a situação %{status}. Aguarde a data de início para que a licitação seja disponibilizada para os fornecedores.
+          ongoing_and_closed: A licitação está com a situação %{status}. Neste momento é possível visualizar apenas os valores das propostas enviadas pelos fornecedores.
+          ongoing: A licitação está com a situação %{status}. Aguarde o fechamento da licitação para visualizar as propostas enviadas pelos fornecedores.
+          under_review: A licitação está com a situação %{status}. Neste momento é possível visualizar as propostas enviadas pelos fornecedores.
+          draw: A licitação está com a situação %{status}. Aguarde os dias corridos para desempate para que seja possível visualizar as propostas.
+
+    new:
+      title: Nova licitação
+      general: Configurações gerais
+      empty_covenants: Associação sem convênios. Não é possível criar uma licitação.
+
+      button:
+        submit: Salvar e definir itens da licitação
+        submitting: Salvando...
+
+      notifications:
+        success: Licitação criada com sucesso
+        failure: Houve um erro ao criar a licitação
+
+    edit:
+      button:
+        submit: Salvar licitação
+        submitting: Salvando licitação
+
+      notifications:
+        success: Licitação atualizada com sucesso.
+        failure: Houve um erro ao atualizar a licitação.
+
+    show:
+      title: Detalhes da licitação
+
+      general:
+        title: Dados da licitação
+        closing_date:
+          hint: contados a partir da data de encerramento
+
+      reproved:
+        alert: 'A licitação foi reprovada pelo revisor pelo seguinte motivo:'
+
+      additives:
+        list: Lista de aditivos
+        new:
+          title: Novo aditivo
+          alert: Ao criar um novo aditivo para a data de encerramento, o sistema irá atualizar a data atual de encerramento e irá notificar os participantes desta licitação.
+
+        empty: Nenhum aditivo cadastrado.
+        hint: clique para visualizar os aditivos
+
+        overlay:
+          title: 'Mudanças da data de encerramento:'
+          from: De
+          to: para
+          new: Novo aditivo
+
+      cancel:
+        button: Cancelar licitação
+
+        card:
+          title: Pedido de cancelamento
+          label: 'Motivo do pedido:'
+          answer:
+            label: 'Resposta do revisor:'
+            placeholder: Aguardando revisor
+
+        overlay:
+          title: Cancelar Licitação
+          alert: Atenção! Essa ação não poderá ser desfeita.
+          field:
+            comment:
+              label: 'Descreva o motivo do cancelamento:'
+          button:
+            send: Enviar pedido de cancelamento
+
+      failure:
+        button: Concluir licitação fracassada
+        overlay:
+          title: Concluir Licitação fracassada
+          alert: Todos os lotes da licitação %{title} foram fracassados.
+          field:
+            comment:
+              label: 'Descreva o motivo do fracasso:'
+          button:
+            send: Concluir licitação
+
+      edit: Editar
+      delete: Excluir
+      empty_address: Não informado
+
+      button:
+        submit: Criar novo aditivo
+        submitting: Criando novo aditivo..
+        finish: Concluir licitação
+
+      documents:
+        title: Documentos
+
+      minute:
+        download: Baixar ATA
+        not_found: ATA não disponível
+
+      edict:
+        download: Baixar Edital
+        not_found: Edital não disponível
+
+      notifications:
+        destroy:
+          success: Licitação excluida com sucesso.
+          failure: Houve um erro ao excluir a licitação.
+
+        cancel:
+          success: Pedido de cancelamento enviado com sucesso.
+          failure: Houve um erro ao enviar o pedido de cancelamento.
+
+        finish:
+          success: Licitação concluída com sucesso.
+          failure: Houve um erro ao concluir a licitação.
+
+        additives:
+          success: Aditivo criado com sucesso!
+          failure: Não foi possível criar o aditivo.
+
+      destroy:
+        title: Excluir licitação
+        body: Tem certeza que deseja excluir esta licitação?

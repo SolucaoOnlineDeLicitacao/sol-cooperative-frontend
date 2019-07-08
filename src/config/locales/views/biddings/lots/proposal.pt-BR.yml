@@ -1,0 +1,83 @@
+pt-BR:
+  biddings:
+    lots:
+      proposals:
+        index:
+          title: Propostas
+          empty: Nenhuma proposta recebida
+          cant_see: Propostas não disponíveis para visualização no momento.
+          lot_group_items_count: 'Itens: %{value}'
+          estimated_value: 'Valor estimado: %{value}'
+
+        show:
+          general:
+            title: Resumo da proposta
+            supplier: 'Fornecedor: %{name}'
+            total: 'Valor total: %{value}'
+
+          items:
+            title: Lista de itens e propostas
+            value: 'Valor unitário:'
+            delivery: 'Valor do frete'
+
+          buttons:
+            accept: Aceitar
+            refuse: Recusar
+
+        _show:
+          proposal_list_item:
+            items:
+              title: Lista de itens e propostas
+              value: 'Valor unitário:'
+              delivery: 'Valor do frete'
+
+          proposal_alerts:
+            alerts:
+              alert: Aguardando avaliação do revisor.
+              coop_accepted: Proposta aceita
+              refused: Proposta recusada
+              accepted: Proposta vencedora
+              failure: Proposta com contrato recusado
+
+        _index:
+          proposal:
+            total: 'Valor total: %{value}'
+
+            proposals:
+              current: Melhor proposta
+              supplier: 'Fornecedor:'
+              proposal: Proposta
+
+              alert: Aguardando avaliação do revisor.
+
+              status:
+                coop_accepted: Proposta aceita
+                refused: Proposta recusada
+                accepted: Proposta vencedora
+                failure: Proposta com contrato recusado
+
+              buttons:
+                refuse: Recusar
+                view: Visualizar
+                accept: Aceitar
+
+          accept_proposal_overlay:
+            title: Aceitar Proposta
+            alert: Atenção! Essa ação não poderá ser desfeita.
+            button: Aceitar proposta
+
+            notifications:
+              accept:
+                success: Proposta aceita com sucesso!
+                failure: Houve um erro ao aceitar a proposta.
+
+          refuse_proposal_overlay:
+            title: Recusar Proposta
+            alert: Atenção! Essa ação não poderá ser desfeita.
+            button: Recusar proposta
+            label: 'Descreva o motivo da recusa:'
+
+            notifications:
+              refuse:
+                success: Proposta recusada com sucesso!
+                failure: Houve um erro ao recusar a proposta.

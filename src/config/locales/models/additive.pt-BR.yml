@@ -1,0 +1,14 @@
+pt-BR:
+  models:
+    additive:
+      one: Aditivo
+      other: Aditivos
+
+      attributes:
+        from: Data de encerramento atual
+        to: Nova data de encerramento
+        bidding: Licitação
+
+      errors:
+        to:
+          invalid: Data inválida. Data deve ser posterior a data de encerramento atual

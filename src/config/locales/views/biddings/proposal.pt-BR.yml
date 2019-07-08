@@ -1,0 +1,44 @@
+pt-BR:
+  biddings:
+    proposals:
+      index:
+        title: Propostas
+        empty: Nenhuma proposta recebida
+        cant_see: Propostas não disponíveis para visualização no momento.
+        lot_group_items_count: 'Itens: %{value}'
+        total: 'Valor total: %{value}'
+        estimated_value: 'Valor estimado: %{value}'
+
+        list:
+          title: Lista de propostas
+
+        notifications:
+          accept:
+            success: Proposta aceita com sucesso!
+            failure: Houve um erro ao aceitar a proposta.
+          refuse:
+            success: Proposta recusada com sucesso!
+            failure: Houve um erro ao recusar a proposta.
+
+      show:
+        general:
+          title: Resumo da proposta
+          supplier: 'Fornecedor: %{name}'
+          total: 'Valor total: %{value}'
+
+        items:
+          title: Lista de itens e propostas
+          value: 'Valor unitário:'
+          delivery: 'Valor do frete'
+
+        buttons:
+          accept: Aceitar
+          refuse: Recusar
+
+        notifications:
+          accept:
+            success: Proposta aceita com sucesso!
+            failure: Houve um erro ao aceitar a proposta.
+          refuse:
+            success: Proposta recusada com sucesso!
+            failure: Houve um erro ao recusar a proposta.

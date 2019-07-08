@@ -1,0 +1,47 @@
+pt-BR:
+  providers:
+    index:
+      title: Fornecedores
+      list:
+        title: Lista de Fornecedores
+      button:
+        new: Novo fornecedor
+      search:
+        placeholder: Busque por nome ou documento do fornecedor
+
+      notifications:
+        destroy:
+          success: Fornecedor excluido com sucesso
+          failure: Houve um erro ao excluir a fornecedor
+
+    new:
+      title: Novo fornecedor
+      general:
+        title: Dados do fornecedor
+
+      fields:
+        name:
+          placeholder: Informe o nome do fornecedor
+        cnpj:
+          placeholder: Informe o documento
+
+      button:
+        submit: Criar fornecedor
+        submitting: Criando fornecedor
+
+      notifications:
+        failure: Houve um erro ao criar o fornecedor
+
+
+    edit:
+      title: Editar fornecedor
+
+      notifications:
+        failure: Houve um erro ao editar o fornecedor
+
+      button:
+        submit: Editar fornecedor
+        submitting: Editando fornecedor
+
+    show:
+      title: Dados do fornecedor

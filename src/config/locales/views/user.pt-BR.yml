@@ -1,0 +1,52 @@
+pt-BR:
+  users:
+    index:
+      title: Usuários de associação
+      list:
+        title: Lista de Usuários de associação
+      button:
+        new: Novo usuário de associação
+      search:
+        placeholder: Busque por nome, cpf, telefone ou e-mail do usuário
+
+      tabs:
+        users: Usuários de associação
+        suppliers: Usuários de fornecedor
+        admins: Usuários de administração
+
+      notifications:
+        destroy:
+          success: Usuário excluido com sucesso
+          failure: Houve um erro ao excluir a usuário
+
+    new:
+      title: Novo usuário de associação
+      general:
+        title: Dados do usuário
+
+      fields:
+        name:
+          placeholder: Informe o nome do usuário
+        cnpj:
+          placeholder: Informe o documento
+
+      button:
+        submit: Criar usuário de associação
+        submitting: Criando usuário de associação
+
+      notifications:
+        failure: Houve um erro ao criar o usuário
+
+
+    edit:
+      title: Editar usuário
+
+      notifications:
+        failure: Houve um erro ao editar o usuário
+
+      button:
+        submit: Editar usuário de associação
+        submitting: Editando usuário de associação
+
+    show:
+      title: Dados do usuário

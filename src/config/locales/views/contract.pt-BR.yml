@@ -1,0 +1,100 @@
+pt-BR:
+  contracts:
+    index:
+      title: Contratos
+
+      card:
+        title: Contrato %{title}
+
+      empty: Nenhum contrato encontrado
+
+      list:
+        title: Lista de Contratos
+
+      search:
+        placeholder: Busque pelo número do contrato
+
+    show:
+      title: Detalhes do contrato
+
+      not_found: Contrato não encontrado.
+
+      overlay:
+        title: Situação do contrato
+        alert: Atenção! Essa ação não poderá ser desfeita.
+        field:
+          status:
+            label: Defina a nova situação do contrato
+            placeholder: Selecione uma opção
+
+      general:
+        title: Dados do contrato
+
+        button:
+          download: Baixar contrato original
+
+      signatures:
+        title: Assinaturas
+        waiting: Aguardando assinatura
+        not_signed: Contrato não assinado
+
+      refused:
+        at: 'Contrato recusado em %{value}'
+        title: Ações
+        description: O contrato foi recusado e por esse motivo é necessário escolher a próxima ação.
+        buttons:
+          cancel: Criar nova licitação com estes itens
+          reload_proposals: Analisar e escolher outra proposta
+
+      button:
+        open: Atualizar contrato
+
+        total_inexecution:
+          new: Criar uma nova licitação com estes itens
+          another: Escolher uma nova proposta
+          submit: Definir nova situação
+
+        partial_execution:
+          submit: Próximo
+
+        completed:
+          submit: Definir nova situação
+
+      statuses:
+        waiting_signature:
+          description: A situação "Aguardando assinatura" indica que o contrato ainda não foi assinado por todas as partes
+        signed:
+          description: A situação "Assinado" indica que o contrato foi assinado por todas as partes
+        completed:
+          description: A situação "Concluído" indica que todos os itens foram entregues pelo fornecedor
+        partial_execution:
+          description: A situação "Executado parcialmente" indica que alguns itens não foram entregues pelo fornecedor
+        total_inexecution:
+          description: A situação "Inexecução total" indica que nenhum item foi entregue pelo fornecedor
+
+      total_inexecution:
+        alert:
+          cant_choose_another: Não é possível escolher outra proposta pois não existem mais propostas.
+
+        new:
+          description: Será criada uma nova licitação (em rascunho) com os itens referentes a esse contrato
+
+        another:
+          description: As propostas referentes a estes itens serão disponibilizadas para uma nova análise e escolha de um novo vencedor
+
+      notifications:
+        completed:
+          success: Contrato concluído com sucesso.
+          failure: Houve um erro ao concluir o contrato.
+
+        total_inexecution:
+          success: Contrato atualizado como "Inexecução total" com sucesso.
+          failure: Houve um erro ao atualizar o contrato.
+
+        refused:
+          clone:
+            success: Uma nova licitação foi criada com sucesso.
+            failure: Houve um erro ao criar a nova licitação.
+          proposal:
+            success: As propostas foram liberadas para análise.
+            failure: Houve um erro ao liberar as propostas para análise.

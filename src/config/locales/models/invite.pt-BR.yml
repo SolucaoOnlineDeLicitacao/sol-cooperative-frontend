@@ -1,0 +1,13 @@
+pt-BR:
+  models:
+    invite:
+      one: Convite
+      other: Convites
+
+      attributes:
+        id: Código (ID)
+        comment: Motivo
+
+      errors:
+        comment:
+          missing: Motivo da reprovação é obrigatório

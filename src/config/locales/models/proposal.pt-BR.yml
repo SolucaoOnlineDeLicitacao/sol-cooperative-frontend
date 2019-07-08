@@ -1,0 +1,20 @@
+pt-BR:
+  models:
+    proposal:
+      one: Proposta
+      other: Propostas
+
+      attributes:
+        id: Código (ID)
+        provider: Fornecedor
+        document: Documento
+        price_total: Valor
+
+        statuses:
+          draft: Rascunho
+          sent: Enviada
+          triage: Em triagem
+          coop_refused: Recusada
+          refused: Recusada
+          coop_accepted: Aceita
+          accepted: Aceita

@@ -1,0 +1,76 @@
+pt-BR:
+  biddings:
+    invites:
+      index:
+        title: Fornecedores convidados
+        pending_title: Convites pendentes
+        reproved_title: Convites reprovados
+        empty: Nenhum convite cadastrado
+
+        send:
+          alert: Os fornecedores serão notificados quando a licitação for aberta.
+
+        button:
+          new: Gerenciar convites
+          approve: Aprovar
+          reprove: Reprovar
+
+        tabs:
+          invites: Convites
+
+        overlay:
+          accept:
+            title: Aprovar fornecedor
+            alert: Atenção! Essa ação não poderá ser desfeita.
+            button: Aprovar fornecedor
+
+          reprove:
+            title: Reprovar fornecedor
+            alert: Atenção! Essa ação não poderá ser desfeita.
+            button: Reprovar fornecedor
+            label: 'Descreva o motivo da reprovação:'
+
+          info:
+            title: Detalhes do fornecedor
+
+        notifications:
+          invite:
+            approved:
+              failure: Não foi possível aprovar o convite.
+              success: Convite aprovado com sucesso.
+            reproved:
+              failure: Não foi possível reprovar o convite.
+              success: Convite reprovado com sucesso.
+
+      edit:
+        title: Editar convite
+
+        general:
+          title: Lista de fornecedores
+          button:
+            add: Adicionar fornecedor
+
+        provider:
+          title: Fornecedores disponíves
+          empty: Nenhum fornecedor disponível
+          filter: Filtrar por classificações
+          taken: Este fornecedor já está selecionado
+
+        overlay:
+          info:
+            title: Detalhes do fornecedor
+
+
+        button:
+          submit: Salvar convites
+          submitting: Salvando convite...
+
+        search:
+          placeholder: Busque por classificações
+
+        item:
+          empty: Nenhum fornecedor encontrado
+
+        notifications:
+          failure: Não foi possível editar o convite.
+          success: Convite editado com sucesso.

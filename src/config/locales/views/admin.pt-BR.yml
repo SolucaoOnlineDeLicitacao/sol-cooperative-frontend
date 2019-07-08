@@ -1,0 +1,50 @@
+pt-BR:
+  admins:
+    index:
+      title: Usuários de administração
+      list:
+        title: Lista de Usuários de administração
+      button:
+        new: Novo usuário de administração
+      search:
+        placeholder: Busque por nome ou e-mail do usuário
+
+      notifications:
+        destroy:
+          success: Usuário excluido com sucesso
+          failure: Houve um erro ao excluir a usuário
+
+    new:
+      title: Novo usuário de administração
+      general:
+        title: Dados do usuário
+
+      fields:
+        name:
+          placeholder: Informe o nome do usuário
+        cnpj:
+          placeholder: Informe o documento
+
+      button:
+        submit: Criar usuário de administração
+        submitting: Criando usuário de administração
+
+      notifications:
+        failure: Houve um erro ao criar o usuário
+
+
+    edit:
+      title: Editar usuário
+
+      notifications:
+        failure: Houve um erro ao editar o usuário
+
+      button:
+        submit: Editar usuário de administração
+        submitting: Editando usuário de administração
+
+    show:
+      title: Dados do usuário
+      covenants:
+        title: Convênios
+        description: Lista de convênios onde este usuário atua como Revisor

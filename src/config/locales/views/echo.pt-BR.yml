@@ -1,0 +1,5 @@
+pt-BR:
+  echo:
+    show:
+      shout: Tudo o que vai...
+      placeholder: ...volta!

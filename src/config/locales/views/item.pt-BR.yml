@@ -1,0 +1,47 @@
+pt-BR:
+  items:
+    index:
+      title: Itens
+      list:
+        title: Lista de Itens
+      button:
+        new: Novo item
+      search:
+        placeholder: Busque por nome ou documento do item
+
+      notifications:
+        destroy:
+          success: Item excluido com sucesso
+          failure: Houve um erro ao excluir a item
+
+    new:
+      title: Novo item
+      general:
+        title: Dados do item
+
+      fields:
+        name:
+          placeholder: Informe o nome do item
+        cnpj:
+          placeholder: Informe o documento
+
+      button:
+        submit: Criar item
+        submitting: Criando item
+
+      notifications:
+        failure: Houve um erro ao criar o item
+
+
+    edit:
+      title: Editar item
+
+      notifications:
+        failure: Houve um erro ao editar o item
+
+      button:
+        submit: Editar item
+        submitting: Editando item
+
+    show:
+      title: Dados do item

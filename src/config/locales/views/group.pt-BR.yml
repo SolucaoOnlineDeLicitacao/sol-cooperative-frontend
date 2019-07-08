@@ -1,0 +1,11 @@
+pt-BR:
+  groups:
+    index:
+      title: Plano de trabalho
+      empty: Nenhum grupo cadastrado
+      group_items_count: 'Itens: %{value}'
+      group_items_value_count: 'Valor total: R$%{value}'
+
+    show:
+      overlay:
+        title: Detalhes do item

@@ -1,0 +1,21 @@
+pt-BR:
+  integrations:
+    index:
+      title: Integrações
+
+      button:
+        submit: Editar integração
+        submitting: Editando integração
+        import: Forçar integração
+        importing: Integrando
+
+      notifications:
+        cooperative:
+          import:
+            success: Integração de Associação iniciada com sucesso
+            failure: Houve um erro ao iniciar a integração de associação
+
+          update:
+            success: Integração de Associação alterada com sucesso
+            failure: Houve um erro ao editar a integração de associação
+

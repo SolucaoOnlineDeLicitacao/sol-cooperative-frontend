@@ -1,0 +1,97 @@
+pt-BR:
+  biddings:
+    lots:
+      index:
+        title: Lotes e itens
+        empty: Nenhum lote cadastrado
+        lot_group_items_count: 'Itens: %{value}'
+
+        button:
+          new: Adicionar lote
+          proposals: Visualizar propostas
+          finish: Finalizar e enviar para liberação
+
+        tabs:
+          lots: Lotes e itens
+
+        notifications:
+          waiting:
+            success: Licitação envida para liberação com sucesso.
+            failure: Houve um erro ao enviar a licitação.
+
+      new:
+        title: Novo lote
+
+        button:
+          submit: Criar lote
+          submitting: Criando lote...
+
+        notifications:
+          failure: Não foi possível criar o lote
+          success: Lote criado com sucesso.
+
+      show:
+        edit: Editar lote
+
+        button:
+          proposals: Visualizar propostas
+
+        files:
+          title: Arquivos do lote
+
+        destroy:
+          button: Excluir
+          title: Excluir lote
+          body: Tem certeza que deseja excluir este lote?
+
+        notifications:
+          destroy:
+            failure: Não foi possível excluir o lote.
+            success: Lote excluido com sucesso.
+
+      edit:
+        title: Editar lote
+
+        itemOverlay:
+          title: Itens disponíves
+          empty: Nenhum item disponível
+
+        button:
+          submit: Editar lote
+          submitting: Editando lote...
+
+        search:
+          placeholder: Busque por itens de custo
+
+        notifications:
+          failure: Não foi possível editar o lote.
+          success: Lote editado com sucesso.
+
+      _form:
+        group_item_list_overlay:
+          title: Itens disponíves
+          empty: Nenhum item disponível
+
+          search:
+            placeholder: Busque por itens de custo
+
+        files-fields:
+          files:
+            title: Arquivos do lote
+
+            buttons:
+              add: Adicionar arquivo
+
+        items-fields:
+          items:
+            title: Itens do lote
+
+            alerts:
+              minimum: Mínimo de 1 item.
+
+            buttons:
+              add: Adicionar Item
+              remove: Remover
+        lot-fields:
+          general:
+            title: Configurações do lote
