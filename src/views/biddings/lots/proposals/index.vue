@@ -7,9 +7,9 @@
       .alert.alert-info(v-if="proposals && proposals[0]")
         | {{ $t('.estimated_value', { value: $asCurrency(proposals[0].lot.estimated_cost_total) }) }}
 
-      .card.slim
+      .card
         .container(v-if="proposals && proposals[0]")
-          h4.mt-2 {{ proposals[0].lot.name }}
+          h4.mt-0 {{ proposals[0].lot.name }}
 
           hr.mt-2.mb-2.o-container
 
@@ -134,6 +134,7 @@
             if(this.seeProposals) {
               this.$http.get('/cooperative/biddings/' + this.biddingId + '/lots/' + this.lotId + '/lot_proposals', { params })
                 .then((response) => {
+                  debugger
                   this.proposals = response.data
                   this.proposalsCount = this.proposals.length
 

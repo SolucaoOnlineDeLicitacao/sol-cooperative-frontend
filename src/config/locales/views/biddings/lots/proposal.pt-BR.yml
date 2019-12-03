@@ -42,6 +42,7 @@ pt-BR:
         _index:
           proposal:
             total: 'Valor total: %{value}'
+            status: 'Situação:'
 
             proposals:
               current: Melhor proposta
