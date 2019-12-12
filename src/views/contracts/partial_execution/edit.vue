@@ -48,7 +48,7 @@
                 label.inline-block.mr-0-5.list-span
                   | {{ $t('.item.total_quantity') }}:
                 span
-                  | {{ item.quantity }}
+                  | {{ $asNumber(item.quantity, { precision: 2 }) }}
                   | {{ item.item_unit }}
 
               .item-quantity-container.mb-2.u-cf
@@ -58,10 +58,11 @@
                 input(type="hidden", name="contract[returned_lot_group_items_attributes][][lot_group_item_id]", :value="item.id")
 
                 input-field.mb-0.mr-0-5(
-                  type="number",
+                  type="text",
                   name="contract[returned_lot_group_items_attributes][][quantity]",
                   :hideLabel="true",
-                  :error="errors[item.index] && errors[item.index]['quantity']"
+                  :error="errors[item.index] && errors[item.index]['quantity']",
+                  mask="999999999999,09"
                 )
 
               hr.mt-0.mb-0.o-container

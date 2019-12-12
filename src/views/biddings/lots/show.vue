@@ -35,7 +35,7 @@
               label.mr-0-5.inline-block.list-span
                 | {{ $t('models.group_item.attributes.quantity') }}:
               span
-                | {{ $asNumber(lot_group_item.quantity, { precision: 0 }) }}
+                | {{ $asNumber(lot_group_item.quantity, { precision: 2 }) }}
                 | {{ lot_group_item.item_unit }}
 
         ul.blink-50(v-else)

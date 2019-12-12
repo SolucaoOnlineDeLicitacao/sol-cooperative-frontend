@@ -17,7 +17,8 @@
               div.list-span
                 label.mr-0-5.mb-0.inline-block
                   | {{ $t('models.group_item.attributes.quantity') }}:
-                span {{ group_item.quantity }}
+                span
+                  | {{ $asNumber(group_item.quantity, { precision: 2 }) }} 
 
               div.list-span
                 label.mr-0-5.inline-block
@@ -55,7 +56,8 @@
 
         label.mr-0-5.mt-2
           | {{ $t('models.group_item.attributes.quantity') }}:
-        span {{ this.overlayItem.quantity }}
+        span
+          | {{ $asNumber(this.overlayItem.quantity, { precision: 2 }) }} 
 
         label.mr-0-5.mt-2
           | {{ $t('models.group_item.attributes.estimated_cost') }}:
