@@ -66,7 +66,7 @@
             label.inline-block.list-span.mr-1
               | {{ $t('models.group_item.attributes.quantity') }}:
             span
-              | {{ $asNumber(group_item.available_quantity, { precision: 0 }) }} / {{ $asNumber(group_item.quantity, { precision: 0 }) }}
+              | {{ $asNumber(group_item.available_quantity, { precision: 2 }) }} / {{ $asNumber(group_item.quantity, { precision: 2 }) }}
               | {{ group_item.item_unit }}
 
           .container(v-if="group_item.used")

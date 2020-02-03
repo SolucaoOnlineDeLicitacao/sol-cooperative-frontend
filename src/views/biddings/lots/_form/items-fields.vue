@@ -71,16 +71,17 @@
             .list-item-action.text-center(@click="removeGrupItem(lot_group_item)")
               .button.button-destroy.u-full-width
                 | {{ $t('.items.buttons.remove') }}
-
             .list-item-input
               input-field(
-                type="number",
+                type="text",
                 v-model="lot_group_item.quantity",
                 name="lot[lot_group_items_attributes][][quantity]",
                 :error="lotGroupItemErrors[index] && lotGroupItemErrors[index]['quantity']",
-                :hideLabel='true'
+                :hideLabel='true',
+                mask="999999999999,09"
               )
-              span.list-item-quantity / {{ $asNumber(lot_group_item.available_quantity, { precision: 0 }) }}
+
+              span.list-item-quantity / {{ $asNumber(lot_group_item.available_quantity, { precision: 2 }) }}
 
         li(v-else)
           input(type="hidden", name="lot[lot_group_items_attributes][][id]", :value="lot_group_item.id" v-if="lot_group_item")
@@ -124,12 +125,11 @@
       },
 
       covenantId() {
-        if (this.nullCovenant) return null
-        return this.bidding.covenant_id
+        return this.bidding && this.bidding.covenant_id
       },
 
       nullCovenant() {
-        return this.bidding && this.bidding.covenant_id == null
+        return this.covenantId == null
       },
 
       countActiveLotGroupItems() {
@@ -160,11 +160,25 @@
       },
 
       maxQuantity(lot_group_item) {
-        return lot_group_item.quantity > lot_group_item.available_quantity+(lot_group_item.current_quantity || 0)
+        return this.commaToFloat(lot_group_item.quantity) > this.currentAvailableQuantity(lot_group_item)
+      },
+
+      currentAvailableQuantity(lot_group_item) {
+        let quantity = this.commaToFloat(lot_group_item.available_quantity) + this.commaToFloat(lot_group_item.current_quantity || 0)
+
+        return this.commaToFloat(quantity)
+      },
+
+      commaToFloat(value) {
+        if(value !== null) {
+          return parseFloat(value.toString().replace(',', '.'))
+        }
       },
 
       toggleOverlayInfo(item) {
         this.overlayItem = item
+        this.overlayItem.maxQuantity = this.maxQuantity(item)
+
         this.showOverlayInfo = true
       },
 
