@@ -1,0 +1,16 @@
+﻿es-PY:
+  contracts:
+    partial_execution:
+      edit:
+        item:
+          title: Ítem de costo
+          total_quantity: Cantidad licitada
+          total_delivered: Cantidad entregada
+
+        button:
+          submit: Definir nueva situación
+          submitting: Definiendo...
+
+        notifications:
+          success: ¡Contrato actualizado con éxito!
+          failure: No se pudo actualizar el contrato.

@@ -1,0 +1,71 @@
+﻿en-US:
+  models:
+    bidding:
+      one: Procurement process
+      other: Procurement Processes
+
+      attributes:
+        id: Code (ID)
+        title: Number
+        description: Description (purpose)
+        kind: Procurement process type
+        status: Status
+        link: Additional site
+        startDate: Start date
+        closingDate: End date
+        openingDate: Opening date
+        drawEndDays: Calendar days for tie-break
+        covenantId: Covenant
+        covenant: Covenant
+        deadline: Delivery/execution deadline in days
+        address: Delivery location
+        modality: Modality
+        classificationId: Classification
+
+        statuses:
+          approved: Cleared
+          canceled: Cancelled
+          closed: Closed
+          completed: Completed
+          draft: In draft
+          failure: Failed
+          finnished: Completed
+          ongoing: Open
+          under_review: Under review
+          waiting: Awaiting clearance
+          suspended: Suspended
+          draw: Awaiting tie-break
+          reopened: Reopened
+          desert: Deserted
+
+        kinds:
+          global: Global price
+          lot: Price per lot
+          unitary: Unit price
+
+        modalities:
+          unrestricted: Open/Public
+          open_invite: Open call for bids
+          closed_invite: Closed call for bids
+
+      errors:
+        covenant:
+          missing: Covenant cannot be blank
+        title:
+          missing: Number cannot be blank
+        description:
+          missing: Description cannot be blank
+        kind:
+          missing: Procurement process type cannot be blank
+        start_date:
+          missing: Start date cannot be blank
+          invalid: Start date cannot be later than end date and earlier than the current date.
+        closing_date:
+          missing: End date cannot be blank
+          invalid: End date cannot be the current date or earlier.
+        opening_date:
+          missing: Opening date cannot be blank
+        invites:
+          invalid: At least one vendor must be called.
+        lot_group_items:
+          too_many: Only one lot per item is allowed in unit bids

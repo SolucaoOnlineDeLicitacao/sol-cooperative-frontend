@@ -15,7 +15,11 @@ pt-BR:
         placeholder: Busque pelo número do contrato
 
     show:
-      title: Detalhes do contrato
+      tabs:
+        contract: Contrato
+        proposal: Proposta
+
+      title: Contrato %{title}
 
       not_found: Contrato não encontrado.
 
@@ -42,6 +46,7 @@ pt-BR:
         at: 'Contrato recusado em %{value}'
         title: Ações
         description: O contrato foi recusado e por esse motivo é necessário escolher a próxima ação.
+        or_line: OU
         buttons:
           cancel: Criar nova licitação com estes itens
           reload_proposals: Analisar e escolher outra proposta

@@ -1,0 +1,26 @@
+﻿es-PY:
+  models:
+    contract:
+      one: Contrato
+      other: Contratos
+
+      attributes:
+        id: Código (ID)
+        title: Número
+        status: Situación
+
+        supplierSignedAt: Proveedor
+        adminSignedAt: Revisor
+        userSignedAt: Asociación
+
+        price_total: Valor
+        bidding_title: Licitación
+        provider_title: Proveedor
+
+        statuses:
+          waiting_signature: A la espera de proveedor
+          signed: Firmado
+          completed: Finalizado
+          partial_execution: Ejecutado parcialmente
+          total_inexecution: Falta de ejecución total
+          refused: Rechazado

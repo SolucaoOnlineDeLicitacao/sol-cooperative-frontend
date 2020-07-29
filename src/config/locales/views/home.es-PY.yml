@@ -1,0 +1,24 @@
+﻿es-PY:
+  home:
+    welcome: '¡Bienvenido a SOL, tenemos %{¡count} licitaciones abiertas!'
+    period: Período
+    loading: Cargando...
+    bidding_title: 'Licitación n.º %{title}'
+    last_biddings: 'Mis últimas licitaciones (%{count})'
+
+    biddings:
+      new: Crear licitación
+      empty: Ninguna licitación encontrada.
+
+    button:
+      logout:
+        label: Salir
+        labelOngoing: Saliendo...
+
+    notifications:
+      echo:
+        failure: Echoless
+      profile:
+        failure: Perfil no accesible
+      logout:
+        failure: No ha sido posible salir. Intente nuevamente

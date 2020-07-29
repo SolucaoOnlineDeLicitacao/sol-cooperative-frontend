@@ -185,14 +185,14 @@
           {
             route: { name: 'lots', params: {} },
             icon: 'fa-list',
-            text: 'Lotes e itens',
+            text: this.$t('biddings.lots.index.tabs.lots'),
             active: false,
           },
 
           {
             route: { name: 'invites', params: { bidding_id: null } },
             icon: 'fa-envelope',
-            text: this.$t('biddings.invites.index.tabs.invites'),
+            text: this.$t('biddings.lots.index.tabs.invites'),
             active: true,
           }
         ]

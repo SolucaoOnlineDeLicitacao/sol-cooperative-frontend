@@ -1,0 +1,50 @@
+﻿es-PY:
+  admins:
+    index:
+      title: Usuarios de administración
+      list:
+        title: Lista de usuarios de administración
+      button:
+        new: Nuevo usuario de administración
+      search:
+        placeholder: Busque por nombre o correo electrónico del usuario
+
+      notifications:
+        destroy:
+          success: Usuario eliminado con éxito
+          failure: Hubo un error al eliminar el usuario
+
+    new:
+      title: Nuevo usuario de administración
+      general:
+        title: Datos del usuario
+
+      fields:
+        name:
+          placeholder: Informe el nombre del usuario
+        cnpj:
+          placeholder: Informe el documento
+
+      button:
+        submit: Crear usuario de administración
+        submitting: Creando usuario de administración
+
+      notifications:
+        failure: Hubo un error al crear el usuario
+
+
+    edit:
+      title: Editar usuario
+
+      notifications:
+        failure: Hubo un error al editar el usuario
+
+      button:
+        submit: Editar usuario de administración
+        submitting: Editando usuario de administración
+
+    show:
+      title: Datos del usuario
+      covenants:
+        title: Convenios
+        description: Lista de convenios donde este usuario ejerce la función de revisor

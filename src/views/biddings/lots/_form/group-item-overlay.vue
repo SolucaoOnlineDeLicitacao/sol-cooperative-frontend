@@ -16,7 +16,7 @@
       label.mt-2
         | {{ $t('models.group_item.attributes.quantity') }}:
       span
-        | {{ this.overlayItem.quantity || this.$t('messages.not_informed') }} / {{ $asNumber(this.overlayItem.available_quantity, { precision: 2 }) }}
+        | {{ $asNumber(this.overlayItem.quantity, { precision: 2 }) || this.$t('messages.not_informed') }} / {{ $asNumber(this.overlayItem.available_quantity, { precision: 2 }) }}
 
         | {{ this.overlayItem.item_unit }}
 

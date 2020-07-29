@@ -1,0 +1,21 @@
+﻿en-US:
+  integrations:
+    index:
+      title: Integrations
+
+      button:
+        submit: Edit integration
+        submitting: Editing integration
+        import: Force integration
+        importing: Integrating
+
+      notifications:
+        cooperative:
+          import:
+            success: Cooperative integration successfully started
+            failure: An error occurred when starting cooperative integration
+
+          update:
+            success: Cooperative integration successfully changed
+            failure: An error occurred when editing cooperative integration
+

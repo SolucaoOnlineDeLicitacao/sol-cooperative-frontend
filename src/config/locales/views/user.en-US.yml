@@ -1,0 +1,52 @@
+﻿en-US:
+  users:
+    index:
+      title: Cooperative users
+      list:
+        title: List of Cooperative users
+      button:
+        new: New cooperative user
+      search:
+        placeholder: Search by user name, CPF, phone or email
+
+      tabs:
+        users: Cooperative users
+        suppliers: Vendor users
+        admins: Admin users
+
+      notifications:
+        destroy:
+          success: User successfully deleted
+          failure: An error occurred when deleting the user
+
+    new:
+      title: New cooperative user
+      general:
+        title: User data
+
+      fields:
+        name:
+          placeholder: Enter user name
+        cnpj:
+          placeholder: Enter document
+
+      button:
+        submit: Create cooperative user
+        submitting: Creating cooperative user
+
+      notifications:
+        failure: An error occurred when creating the user
+
+
+    edit:
+      title: Edit user
+
+      notifications:
+        failure: An error occurred when editing the user
+
+      button:
+        submit: Edit cooperative user
+        submitting: Editing cooperative user
+
+    show:
+      title: User data

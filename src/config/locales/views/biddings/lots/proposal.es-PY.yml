@@ -1,0 +1,84 @@
+﻿es-PY:
+  biddings:
+    lots:
+      proposals:
+        index:
+          title: Propuestas
+          empty: Ninguna propuesta recibida
+          cant_see: Propuestas no disponibles para visualización en este momento.
+          lot_group_items_count: 'Ítems: %{value}'
+          estimated_value: 'Valor estimado: %{value}'
+
+        show:
+          general:
+            title: Resumen de la propuesta
+            supplier: 'Proveedor: %{name}'
+            total: 'Valor total: %{value}'
+
+          items:
+            title: Lista de ítems y propuestas
+            value: 'Valor unitario:'
+            delivery: 'Valor del flete'
+
+          buttons:
+            accept: Aceptar
+            refuse: Rechazar
+
+        _show:
+          proposal_list_item:
+            items:
+              title: Lista de ítems y propuestas
+              value: 'Valor unitario:'
+              delivery: 'Valor del flete'
+
+          proposal_alerts:
+            alerts:
+              alert: Aguardando evaluación del revisor.
+              coop_accepted: Propuesta aceptada
+              refused: Propuesta rechazada
+              accepted: Propuesta ganadora
+              failure: Propuesta con contrato rechazado
+
+        _index:
+          proposal:
+            total: 'Valor total: %{value}'
+            status: 'Situación:'
+
+            proposals:
+              current: Mejor propuesta
+              supplier: 'Proveedor:'
+              proposal: Propuesta
+
+              alert: Aguardando evaluación del revisor.
+
+              status:
+                coop_accepted: Propuesta aceptada
+                refused: Propuesta rechazada
+                accepted: Propuesta ganadora
+                failure: Propuesta con contrato rechazado
+
+              buttons:
+                refuse: Rechazar
+                view: Ver
+                accept: Aceptar
+
+          accept_proposal_overlay:
+            title: Aceptar la propuesta
+            alert: ¡Atención! Esta acción no podrá deshacerse.
+            button: Aceptar la propuesta
+
+            notifications:
+              accept:
+                success: ¡La propuesta ha sido aceptada con éxito!
+                failure: Hubo un error al aceptar la propuesta.
+
+          refuse_proposal_overlay:
+            title: Rechazar la propuesta
+            alert: ¡Atención! Esta acción no podrá deshacerse.
+            button: Rechazar la propuesta
+            label: 'Describa el motivo del rechazo:'
+
+            notifications:
+              refuse:
+                success: ¡La propuesta ha sido rechazada con éxito!
+                failure: Hubo un error al rechazar la propuesta.

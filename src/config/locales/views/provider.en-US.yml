@@ -1,0 +1,47 @@
+﻿en-US:
+  providers:
+    index:
+      title: Vendors
+      list:
+        title: List of Vendors
+      button:
+        new: New vendor
+      search:
+        placeholder: Search by vendor name or document
+
+      notifications:
+        destroy:
+          success: Vendor successfully deleted
+          failure: An error occurred when deleting the vendor
+
+    new:
+      title: New vendor
+      general:
+        title: Vendor data
+
+      fields:
+        name:
+          placeholder: Enter vendor name
+        cnpj:
+          placeholder: Enter document
+
+      button:
+        submit: Create vendor
+        submitting: Creating vendor
+
+      notifications:
+        failure: An error occurred when creating the vendor
+
+
+    edit:
+      title: Edit vendor
+
+      notifications:
+        failure: An error occurred when editing the vendor
+
+      button:
+        submit: Edit vendor
+        submitting: Editing vendor
+
+    show:
+      title: Vendor data

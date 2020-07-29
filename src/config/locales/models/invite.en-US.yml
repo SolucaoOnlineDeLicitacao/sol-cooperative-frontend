@@ -1,0 +1,13 @@
+﻿en-US:
+  models:
+    invite:
+      one: Call for Bids
+      other: Calls for Bids
+
+      attributes:
+        id: Code (ID)
+        comment: Reason
+
+      errors:
+        comment:
+          missing: Rejection reason is required

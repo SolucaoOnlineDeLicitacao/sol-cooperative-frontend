@@ -1,0 +1,14 @@
+﻿es-PY:
+  models:
+    additive:
+      one: Aditivo
+      other: Aditivos
+
+      attributes:
+        from: Fecha de cierre actual
+        to: Nueva fecha de cierre
+        bidding: Licitación
+
+      errors:
+        to:
+          invalid: Fecha inválida. La fecha debe ser posterior la fecha de cierre actual

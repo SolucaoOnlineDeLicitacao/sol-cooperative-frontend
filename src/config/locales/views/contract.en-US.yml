@@ -1,0 +1,105 @@
+﻿en-US:
+  contracts:
+    index:
+      title: Contracts
+
+      card:
+        title: Contract %{title}
+
+      empty: No contract found
+
+      list:
+        title: List of Contracts
+
+      search:
+        placeholder: Search by contract number
+
+    show:
+      tabs:
+        contract: Contract
+        proposal: Proposal
+
+      title: Contract %{title}
+
+      not_found: Contract not found.
+
+      overlay:
+        title: Contract status
+        alert: Attention! This action cannot be undone.
+        field:
+          status:
+            label: Set the new contract status
+            placeholder: Choose an option
+
+      general:
+        title: Contract data
+
+        button:
+          download: Download original contract
+
+      signatures:
+        title: Signatures
+        waiting: Awaiting signature
+        not_signed: Contract not signed
+
+      refused:
+        at: 'Contract rejected in %{value}'
+        title: Actions
+        description: The contract was rejected and the next action must be selected.
+        or_line: OR
+        buttons:
+          cancel: Create a new procurement process with these items
+          reload_proposals: Review and choose another proposal
+
+      button:
+        open: Update contract
+
+        total_inexecution:
+          new: Create a new procurement process with these items
+          another: Select a new proposal
+          submit: Set new status
+
+        partial_execution:
+          submit: Next
+
+        completed:
+          submit: Set new status
+
+      statuses:
+        waiting_signature:
+          description: The “Awaiting signature” status indicates that not all parties have signed the contract
+        signed:
+          description: The “Signed” status indicates that all parties have signed the contract
+        completed:
+          description: The “Completed” status indicates that the vendor delivered all items
+        partial_execution:
+          description: The “Partially executed” status indicates that the vendor did not deliver some items
+        total_inexecution:
+          description: The “Complete nonperformance” status indicates that the vendor has not delivered any of the items
+
+      total_inexecution:
+        alert:
+          cant_choose_another: Another proposal cannot be selected because there are no other proposals.
+
+        new:
+          description: A new procurement process will be created (in draft) with this contract’s items
+
+        another:
+          description: Proposals related to these items will be provided for a new review and selection of a new winner
+
+      notifications:
+        completed:
+          success: Contract successfully completed.
+          failure: An error occurred when completing the contract.
+
+        total_inexecution:
+          success: Contract successfully updated as “Complete nonperformance”.
+          failure: An error occurred when updating the contract.
+
+        refused:
+          clone:
+            success: A new procurement process was successfully created.
+            failure: An error occurred when creating a new procurement process.
+          proposal:
+            success: Proposals were cleared for review.
+            failure: An error occurred when clearing proposals for review.

@@ -1,0 +1,99 @@
+﻿es-PY:
+  biddings:
+    lots:
+      index:
+        title: Lotes e ítems
+        empty: No se han registrado lotes
+        lot_group_items_count: 'Ítems: %{value}'
+
+        button:
+          new: Añadir lote
+          proposals: Ver propuestas
+          finish: Finalizar y enviar para liberación
+
+        tabs:
+          lots: Lotes e ítems
+          invites: Invitaciones
+
+        notifications:
+          waiting:
+            success: Licitación enviada para liberación con éxito.
+            failure: Hubo un error al enviar la licitación.
+
+      new:
+        title: Nuevo lote
+
+        button:
+          submit: Crear lote
+          submitting: Creando lote...
+
+        notifications:
+          failure: No se pudo crear el lote.
+          success: Lote creado con éxito.
+
+      show:
+        edit: Editar lote
+
+        button:
+          proposals: Ver propuestas
+
+        files:
+          title: Archivos del lote
+
+        destroy:
+          button: Eliminar
+          title: Eliminar lote
+          body: ¿Está seguro de que desea eliminar este lote?
+
+        notifications:
+          destroy:
+            failure: No se pudo eliminar el lote.
+            success: Lote eliminado con éxito.
+
+      edit:
+        title: Editar lote
+
+        itemOverlay:
+          title: Ítems disponibles
+          empty: Ningún ítem disponible
+
+        button:
+          submit: Editar lote
+          submitting: Editando lote...
+
+        search:
+          placeholder: Busque por ítems de costo
+
+        notifications:
+          failure: No se pudo editar el lote.
+          success: Lote editado con éxito.
+
+      _form:
+        group_item_list_overlay:
+          title: Ítems disponibles
+          empty: Ningún ítem disponible
+          already_in_the_current_lot: Este ítem ya está en el lote actual
+
+          search:
+            placeholder: Busque por ítems de costo
+
+        files-fields:
+          files:
+            title: Archivos del lote
+
+            buttons:
+              add: Agregar archivo
+
+        items-fields:
+          items:
+            title: Ítems del lote
+
+            alerts:
+              minimum: Mínimo de 1 ítem.
+
+            buttons:
+              add: Agregar ítem
+              remove: Remover
+        lot-fields:
+          general:
+            title: Configuraciones del lote

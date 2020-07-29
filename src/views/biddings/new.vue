@@ -97,7 +97,7 @@
           :error="errors.link"
         )
 
-        button.button-submit.u-full-width(
+        button.button-submit.button-long.u-full-width(
           type="submit",
           :disabled="submitting"
         )

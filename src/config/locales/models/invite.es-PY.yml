@@ -1,0 +1,13 @@
+﻿es-PY:
+  models:
+    invite:
+      one: Invitación
+      other: Invitaciones
+
+      attributes:
+        id: Código (ID)
+        comment: Motivo
+
+      errors:
+        comment:
+          missing: El motivo de la reprobación es obligatorio

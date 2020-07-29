@@ -1,0 +1,77 @@
+﻿en-US:
+  biddings:
+    invites:
+      search_by_classification_name: Search by classification name
+      no_results: No results found.
+      apply_filter: Apply filter
+
+      index:
+        title: Vendors called
+        pending_title: Pending calls
+        reproved_title: Rejected calls
+        empty: No call registered
+
+        send:
+          alert: Vendors will be notified when the procurement process begins.
+
+        button:
+          new: Manage calls for bids
+          approve: Approve
+          reprove: Reject
+
+        overlay:
+          accept:
+            title: Approve vendor
+            alert: Attention! This action cannot be undone.
+            button: Approve vendor
+
+          reprove:
+            title: Reject vendor
+            alert: Attention! This action cannot be undone.
+            button: Reject vendor
+            label: 'Enter the reason for rejection:'
+
+          info:
+            title: Vendor details
+
+        notifications:
+          invite:
+            approved:
+              failure: Unable to approve call for bid.
+              success: Call for bid successfully approved
+            reproved:
+              failure: Unable to reject call for bid.
+              success: Call for bid successfully rejected.
+
+      edit:
+        title: Edit call for bid
+
+        general:
+          title: List of vendors
+          button:
+            add: Add vendor
+
+        provider:
+          title: Available vendors
+          empty: No vendor available
+          filter: Filter by classifications
+          taken: Vendor is already selected
+
+        overlay:
+          info:
+            title: Vendor details
+
+
+        button:
+          submit: Save calls for bids
+          submitting: Saving calls for bids...
+
+        search:
+          placeholder: Search by classifications
+
+        item:
+          empty: No vendor found
+
+        notifications:
+          failure: Unable to edit call for bid.
+          success: Call for bid successfully edited.

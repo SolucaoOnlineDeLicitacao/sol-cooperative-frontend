@@ -292,21 +292,21 @@
           {
             route: { name: 'bidding', params: {} },
             icon: 'fa-file',
-            text: 'Licitação',
+            text: this.$t('models.bidding.one'),
             active: true,
           },
 
           {
             route: { name: 'lots', params: {} },
             icon: 'fa-list',
-            text: 'Lotes e itens',
+            text: this.$t('biddings.lots.index.tabs.lots'),
             active: false,
           },
 
           {
             route: { name: 'invites', params: {} },
             icon: 'fa-envelope',
-            text: 'Convites',
+            text: this.$t('biddings.lots.index.tabs.invites'),
             active: false,
           }
         ]
@@ -397,8 +397,8 @@
         }
 
         let options = {
-          cancelText: 'Voltar',
-          okText: 'Excluir',
+          cancelText: this.$t('dialog.back'),
+          okText: this.$t('dialog.destroy'),
           customClass: 'dg-delete'
         }
 

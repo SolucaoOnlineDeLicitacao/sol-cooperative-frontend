@@ -1,0 +1,20 @@
+﻿es-PY:
+  models:
+    proposal:
+      one: Propuesta
+      other: Propuestas
+
+      attributes:
+        id: Código (ID)
+        provider: Proveedor
+        document: Documento
+        price_total: Valor
+
+        statuses:
+          draft: Borrador
+          sent: Enviada
+          triage: En clasificación
+          coop_refused: Rechazada
+          refused: Rechazada
+          coop_accepted: Aceptada
+          accepted: Aceptada

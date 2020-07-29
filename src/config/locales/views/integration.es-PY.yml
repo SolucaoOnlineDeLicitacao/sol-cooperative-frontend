@@ -1,0 +1,21 @@
+﻿es-PY:
+  integrations:
+    index:
+      title: Integraciones
+
+      button:
+        submit: Editar integración
+        submitting: Editando integración
+        import: Forzar integración
+        importing: Integrando
+
+      notifications:
+        cooperative:
+          import:
+            success: Integración de la asociación iniciada con éxito
+            failure: Hubo un error al iniciar la integración de la asociación
+
+          update:
+            success: Integración de la asociación modificada con éxito
+            failure: Hubo un error al editar la integración de la asociación
+

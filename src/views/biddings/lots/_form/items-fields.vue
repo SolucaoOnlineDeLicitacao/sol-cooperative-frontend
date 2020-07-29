@@ -7,7 +7,7 @@
   .list-item-action {
     float: left;
     margin-right: 4%;
-    width: 48%;
+    width: 38%;
 
     line-height: 38px;
   }
@@ -15,6 +15,7 @@
   .list-item-input {
     margin-right: 0;
     position: relative;
+    width: 58%;
 
     .list-item-quantity {
       position: absolute;
@@ -71,14 +72,13 @@
             .list-item-action.text-center(@click="removeGrupItem(lot_group_item)")
               .button.button-destroy.u-full-width
                 | {{ $t('.items.buttons.remove') }}
+
             .list-item-input
-              input-field(
-                type="text",
+              numeric-field(
                 v-model="lot_group_item.quantity",
                 name="lot[lot_group_items_attributes][][quantity]",
                 :error="lotGroupItemErrors[index] && lotGroupItemErrors[index]['quantity']",
-                :hideLabel='true',
-                mask="999999999999,09"
+                :hideLabel="true",
               )
 
               span.list-item-quantity / {{ $asNumber(lot_group_item.available_quantity, { precision: 2 }) }}

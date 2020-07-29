@@ -1,0 +1,105 @@
+﻿es-PY:
+  contracts:
+    index:
+      title: Contratos
+
+      card:
+        title: Contrato %{title}
+
+      empty: No se ha encontrado ningún contrato
+
+      list:
+        title: Lista de contratos
+
+      search:
+        placeholder: Busque por el número del contrato
+
+    show:
+      tabs:
+        contract: Contrato
+        proposal: Propuesta
+
+      title: Contrato %{title}
+
+      not_found: Contrato no encontrado.
+
+      overlay:
+        title: Situación del contrato
+        alert: ¡Atención! Esta acción no podrá deshacerse.
+        field:
+          status:
+            label: Defina la nueva situación del contrato
+            placeholder: Seleccione una opción
+
+      general:
+        title: Datos del contrato
+
+        button:
+          download: Descargar contrato original
+
+      signatures:
+        title: Firmas
+        waiting: A la espera de firma
+        not_signed: Contrato no firmado
+
+      refused:
+        at: 'Contrato rechazado en %{value}'
+        title: Acciones
+        description: El contrato ha sido rechazado y, por ese motivo, es necesario elegir la próxima acción.
+        or_line: O
+        buttons:
+          cancel: Crear nueva licitación con estos ítems
+          reload_proposals: Analizar y elegir otra propuesta
+
+      button:
+        open: Actualizar contrato
+
+        total_inexecution:
+          new: Crear una nueva licitación con estos ítems
+          another: Elegir una nueva propuesta
+          submit: Definir nueva situación
+
+        partial_execution:
+          submit: Siguiente
+
+        completed:
+          submit: Definir nueva situación
+
+      statuses:
+        waiting_signature:
+          description: La situación "Aguardando firma" indica que el contrato aún no ha sido firmado por todas las partes
+        signed:
+          description: La situación "Firmado" indica que el contrato ha sido firmado por todas las partes
+        completed:
+          description: La situación "Concluido" indica que el proveedor entregó todos los ítems
+        partial_execution:
+          description: La situación "Ejecutado parcialmente" indica que el proveedor no entregó algunos ítems
+        total_inexecution:
+          description: La situación "Falta de ejecución total" indica que el proveedor no entregó ningún ítem
+
+      total_inexecution:
+        alert:
+          cant_choose_another: No es posible elegir otra propuesta, pues no existen más propuestas.
+
+        new:
+          description: Se creará una nueva licitación (en borrador) con los ítems referidos a este contrato
+
+        another:
+          description: Las propuestas referidas a estos ítems estarán disponibles para un nuevo análisis y elección de un nuevo ganador
+
+      notifications:
+        completed:
+          success: Contrato concluido con éxito.
+          failure: Hubo un error al concluir el contrato.
+
+        total_inexecution:
+          success: Contrato actualizado como "Falta de ejecución total" con éxito.
+          failure: Hubo un error al actualizar el contrato.
+
+        refused:
+          clone:
+            success: Una nueva licitación ha sido creada con éxito.
+            failure: Hubo un error al crear la nueva licitación.
+          proposal:
+            success: Las propuestas han sido liberadas para análisis.
+            failure: Hubo un error al liberar las propuestas para análisis.

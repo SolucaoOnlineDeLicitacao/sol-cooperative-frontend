@@ -1,0 +1,77 @@
+﻿es-PY:
+  biddings:
+    invites:
+      search_by_classification_name: Búsqueda por nombre de clasificación
+      no_results: Ningún resultado encontrado.
+      apply_filter: Aplicar filtro
+
+      index:
+        title: Proveedores invitados
+        pending_title: Invitaciones pendientes
+        reproved_title: Invitaciones reprobadas
+        empty: No se han registrado invitaciones
+
+        send:
+          alert: Se notificará a los proveedores cuando se abra la licitación.
+
+        button:
+          new: Administrar invitaciones
+          approve: Aprobar
+          reprove: Reprobar
+
+        overlay:
+          accept:
+            title: Aprobar proveedor
+            alert: ¡Atención! Esta acción no podrá deshacerse.
+            button: Aprobar proveedor
+
+          reprove:
+            title: Reprobar proveedor
+            alert: ¡Atención! Esta acción no podrá deshacerse.
+            button: Reprobar proveedor
+            label: 'Describa el motivo de la reprobación:'
+
+          info:
+            title: Detalles del proveedor
+
+        notifications:
+          invite:
+            approved:
+              failure: No se pudo aprobar la invitación.
+              success: Invitación aprobada con éxito.
+            reproved:
+              failure: No se pudo reprobar la invitación.
+              success: Invitación reprobada con éxito.
+
+      edit:
+        title: Editar invitación
+
+        general:
+          title: Lista de proveedores
+          button:
+            add: Agregar proveedor
+
+        provider:
+          title: Proveedores disponibles
+          empty: Ningún proveedor disponible
+          filter: Filtrar por clasificaciones
+          taken: Este proveedor ya ha sido seleccionado
+
+        overlay:
+          info:
+            title: Detalles del proveedor
+
+
+        button:
+          submit: Guardar invitaciones
+          submitting: Guardando invitación...
+
+        search:
+          placeholder: Busque por clasificaciones
+
+        item:
+          empty: No se encontró ningún proveedor
+
+        notifications:
+          failure: No se pudo editar la invitación.
+          success: Invitación editada con éxito.

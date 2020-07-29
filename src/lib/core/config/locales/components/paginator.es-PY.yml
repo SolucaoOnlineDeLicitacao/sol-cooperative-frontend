@@ -1,0 +1,7 @@
+es-PY:
+  components:
+    paginator:
+      first: Comienzo
+      prev: ''
+      next: ''
+      last: Final

@@ -1,0 +1,17 @@
+﻿es-PY:
+  app: 'sol-cooperative-frontend.vue'
+  title: 'SOL'
+
+  button:
+    search: Buscar
+    searching: Buscando
+
+  messages:
+    not_informed: no informado
+
+  options:
+    blank: Seleccione una opción
+
+  dialog:
+    back: Volver
+    destroy: Eliminar

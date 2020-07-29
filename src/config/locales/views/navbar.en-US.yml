@@ -1,0 +1,20 @@
+﻿en-US:
+  navbar:
+    app: SOL
+    home: Start
+    notification: Notifications
+    covenants: Covenants
+    contracts: Contracts
+    biddings: Procurement Processes
+    map: Map
+    feedbacks: Evaluations
+    profile: My Profile
+    button:
+      logout:
+        label: Exit
+        labelOngoing: Exiting
+
+    notifications:
+      logout:
+        failure: Error when exiting...
+        success: Exiting!

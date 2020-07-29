@@ -13,6 +13,7 @@ pt-BR:
 
         tabs:
           lots: Lotes e itens
+          invites: Convites
 
         notifications:
           waiting:
@@ -71,6 +72,7 @@ pt-BR:
         group_item_list_overlay:
           title: Itens disponíves
           empty: Nenhum item disponível
+          already_in_the_current_lot: Este item já consta no lote atual
 
           search:
             placeholder: Busque por itens de custo
