@@ -58,7 +58,7 @@
                 input(type="hidden", name="contract[returned_lot_group_items_attributes][][lot_group_item_id]", :value="item.id")
 
                 numeric-field.mb-0.mr-0-5(
-                  v-model="returned_lot_group_item_quantity",
+                  v-model="group_item.returned_lot_group_item_quantity",
                   name="contract[returned_lot_group_items_attributes][][quantity]",
                   :hideLabel="true",
                   :error="errors[item.index] && errors[item.index]['quantity']"
@@ -93,8 +93,7 @@
 
         // form
         contract: {},
-        group_items: [],
-        returned_lot_group_item_quantity: null
+        group_items: []
       }
     },
 
@@ -164,6 +163,7 @@
 
             _.map(orderedItens, function(item) {
               item.index = index
+              item.returned_lot_group_item_quantity = null
               index++
             })
 
