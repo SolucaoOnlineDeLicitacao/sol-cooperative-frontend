@@ -58,7 +58,7 @@
                 input(type="hidden", name="contract[returned_lot_group_items_attributes][][lot_group_item_id]", :value="item.id")
 
                 numeric-field.mb-0.mr-0-5(
-                  v-model="group_item.returned_lot_group_item_quantity",
+                  v-model="item.returned_lot_group_item_quantity",
                   name="contract[returned_lot_group_items_attributes][][quantity]",
                   :hideLabel="true",
                   :error="errors[item.index] && errors[item.index]['quantity']"
