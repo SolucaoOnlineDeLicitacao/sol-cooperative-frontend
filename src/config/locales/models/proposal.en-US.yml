@@ -1,0 +1,20 @@
+﻿en-US:
+  models:
+    proposal:
+      one: Proposal
+      other: Proposals
+
+      attributes:
+        id: Code (ID)
+        provider: Vendor
+        document: Document
+        price_total: Value
+
+        statuses:
+          draft: Draft
+          sent: Submitted
+          triage: Sorting
+          coop_refused: Rejected
+          refused: Rejected
+          coop_accepted: Accepted
+          accepted: Accepted

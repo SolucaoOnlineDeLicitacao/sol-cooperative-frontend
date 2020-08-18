@@ -1,0 +1,47 @@
+﻿en-US:
+  items:
+    index:
+      title: Items
+      list:
+        title: List of Items
+      button:
+        new: New item
+      search:
+        placeholder: Search by item name or document
+
+      notifications:
+        destroy:
+          success: Item successfully deleted
+          failure: An error occurred when deleting the item
+
+    new:
+      title: New item
+      general:
+        title: Item data
+
+      fields:
+        name:
+          placeholder: Enter item name
+        cnpj:
+          placeholder: Enter document
+
+      button:
+        submit: Create item
+        submitting: Creating item
+
+      notifications:
+        failure: An error occurred when creating the item
+
+
+    edit:
+      title: Edit item
+
+      notifications:
+        failure: An error occurred when editing the item
+
+      button:
+        submit: Edit item
+        submitting: Editing item
+
+    show:
+      title: Item data

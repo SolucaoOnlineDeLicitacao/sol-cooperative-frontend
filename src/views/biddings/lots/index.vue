@@ -85,7 +85,7 @@
             .container
               | {{ $t('.empty') }}
 
-      button.u-full-width.button-submit.mt-3.button-finish-draft(@click="waitingBidding" v-if="lotsCount && bidding_status == 'draft'")
+      button.u-full-width.button-submit.mt-3.button-finish-draft.button-long(@click="waitingBidding" v-if="lotsCount && bidding_status == 'draft'")
         | {{ $t('.button.finish') }}
 
     overlay-notification(v-if="showWaitingOverlay", :showOverlay="showWaitingOverlay", :text="$t('.notifications.waiting.success')")
@@ -137,7 +137,7 @@
           {
             route: { name: 'invites', params: {} },
             icon: 'fa-envelope',
-            text: 'Convites',
+            text: this.$t('biddings.lots.index.tabs.invites'),
             active: false,
           }
         ]

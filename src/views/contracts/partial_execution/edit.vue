@@ -57,12 +57,11 @@
 
                 input(type="hidden", name="contract[returned_lot_group_items_attributes][][lot_group_item_id]", :value="item.id")
 
-                input-field.mb-0.mr-0-5(
-                  type="text",
+                numeric-field.mb-0.mr-0-5(
+                  v-model="item.returned_lot_group_item_quantity",
                   name="contract[returned_lot_group_items_attributes][][quantity]",
                   :hideLabel="true",
-                  :error="errors[item.index] && errors[item.index]['quantity']",
-                  mask="999999999999,09"
+                  :error="errors[item.index] && errors[item.index]['quantity']"
                 )
 
               hr.mt-0.mb-0.o-container
@@ -164,6 +163,7 @@
 
             _.map(orderedItens, function(item) {
               item.index = index
+              item.returned_lot_group_item_quantity = null
               index++
             })
 

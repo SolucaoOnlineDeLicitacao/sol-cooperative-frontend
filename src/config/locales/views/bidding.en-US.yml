@@ -1,0 +1,145 @@
+﻿en-US:
+  biddings:
+    index:
+      title: Procurement Processes
+
+      empty: No procurement process found.
+
+      list:
+        title: List of Procurement Processes
+
+      button:
+        new: New procurement process
+
+      search:
+        placeholder: Search by procurement process number or object
+
+      period: Period
+
+      _index:
+        bidding_alerts:
+          waiting: The procurement process status is %{status}. Awaiting clearance by reviewer for your procurement process.
+          approved: The procurement process status is %{status}. Awaiting start date to make procurement process available to vendors.
+          ongoing_and_closed: The procurement process status is %{status}. Only the values of proposals submitted by vendors are currently available.
+          ongoing: The procurement process status is %{status}. Awaiting procurement process closure to view proposals submitted by vendors.
+          under_review: The procurement process status is %{status}. Proposals submitted by vendors are currently available.
+          draw: The procurement process status is %{status}. Awaiting tie-break calendar days to view proposals.
+
+    new:
+      title: New procurement process
+      general: General settings
+      empty_covenants: Cooperative without covenants. Unable to create a procurement process.
+
+      button:
+        submit: Save and define procurement process items
+        submitting: Saving...
+
+      notifications:
+        success: Procurement process successfully created
+        failure: An error occurred when creating the procurement process
+
+    edit:
+      button:
+        submit: Save procurement process
+        submitting: Saving procurement process
+
+      notifications:
+        success: Procurement process successfully updated
+        failure: An error occurred when updating the procurement process
+
+    show:
+      title: Procurement process details
+
+      general:
+        title: Procurement process data
+        closing_date:
+          hint: counted as of the end date
+
+      reproved:
+        alert: 'The reviewer rejected the procurement process for the following reason:'
+
+      additives:
+        list: List of additives
+        new:
+          title: New additive
+          alert: When creating a new additive for the end date, the system updates the current end date and notifies all procurement process participants.
+
+        empty: New additive registered.
+        hint: click to view additives
+
+        overlay:
+          title: 'Changes to end date:'
+          from: From
+          to: to
+          new: New additive
+
+      cancel:
+        button: Cancel procurement process
+
+        card:
+          title: Cancellation request
+          label: 'Reason for request:'
+          answer:
+            label: 'Reviewer response:'
+            placeholder: Awaiting reviewer
+
+        overlay:
+          title: Cancel procurement process
+          alert: Attention! This action cannot be undone.
+          field:
+            comment:
+              label: 'Enter the reason for cancellation:'
+          button:
+            send: Submit cancellation request
+
+      failure:
+        button: Complete failed procurement process
+        overlay:
+          title: Complete failed Procurement process
+          alert: All lots of procurement process %{title} were failed.
+          field:
+            comment:
+              label: 'Enter the reason for failure:'
+          button:
+            send: Complete procurement process
+
+      edit: Edit
+      delete: Delete
+      empty_address: Not informed
+
+      button:
+        submit: Create new additive
+        submitting: Creating new additive...
+        finish: Complete procurement process
+
+      documents:
+        title: Documents
+
+      minute:
+        download: Download MINUTES
+        not_found: MINUTES not available
+
+      edict:
+        download: Download RFP
+        not_found: RFP not available
+
+      notifications:
+        destroy:
+          success: Procurement process successfully deleted.
+          failure: An error occurred when deleting the procurement process.
+
+        cancel:
+          success: Cancellation request successfully submitted.
+          failure: An error occurred when submitting the cancellation request.
+
+        finish:
+          success: Procurement process successfully completed.
+          failure: An error occurred when completing the procurement process.
+
+        additives:
+          success: Additive successfully created.
+          failure: Unable to create additive.
+
+      destroy:
+        title: Delete procurement process
+        body: Are you sure you wish to delete this procurement process?

@@ -1,0 +1,16 @@
+﻿en-US:
+  contracts:
+    partial_execution:
+      edit:
+        item:
+          title: Cost item
+          total_quantity: Quantity tendered
+          total_delivered: Quantity delivered
+
+        button:
+          submit: Set new status
+          submitting: Setting...
+
+        notifications:
+          success: Contract successfully updated!
+          failure: Unable to update contract.

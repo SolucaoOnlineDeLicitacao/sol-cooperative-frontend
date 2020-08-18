@@ -1,0 +1,11 @@
+﻿en-US:
+  groups:
+    index:
+      title: Work plan
+      empty: New group registered
+      group_items_count: 'Items: %{value}'
+      group_items_value_count: 'Total value: BRL %{value}'
+
+    show:
+      overlay:
+        title: Item details

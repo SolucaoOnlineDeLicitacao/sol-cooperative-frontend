@@ -23,20 +23,18 @@
   }
 
   .or-line {
+    width: 100%;
     text-align: center;
-    position: relative;
-    overflow: initial;
-    font-weight: bold;
+    border-bottom: 1px solid #E1E1E1;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
 
-    &:before {
-      content: 'OU';
-      position: absolute;
-      top: -12px;
-      background-color: white;
+    span {
+      font-weight: bold;
+      background: #fff;
       padding: 0 20px;
-      margin-left: -30px;
     }
-  }
+  } 
 
 </style>
 
@@ -99,12 +97,13 @@
             i.fa.fa-spin.fa-spinner.fa-2x
 
         template(v-else)
-          .button.u-full-width.mb-0(@click="cancelAndclone")
+          .button.button-long.u-full-width.mb-0(@click="cancelAndClone")
             | {{ $t('.refused.buttons.cancel') }}
 
-          hr.or-line.mt-2.mb-2
+          .or-line.mt-2.mb-2
+            span {{ $t('.refused.or_line') }}
 
-          .button.u-full-width(@click="reloadProposals")
+          .button.button-long.u-full-width(@click="reloadProposals")
             | {{ $t('.refused.buttons.reload_proposals') }}
 
       .text-center.mt-2(v-if="canUpdateStatus")
@@ -217,14 +216,14 @@
           {
             route: { name: 'contract', params: {} },
             icon: 'fa-file',
-            text: 'Contrato',
+            text: this.$t('contracts.show.tabs.contract'),
             active: true,
           },
 
           {
             route: { name: 'proposal', params: {} },
             icon: 'fa-list',
-            text: 'Proposta',
+            text: this.$t('contracts.show.tabs.proposal'),
             active: false,
           }
         ]
@@ -313,7 +312,7 @@
             this.currentStatus = this.contract.status
             this.changeTabs()
 
-            this.$emit('navbarTitleChanged', 'Contrato ' + this.contract.title)
+            this.$emit('navbarTitleChanged', this.$t('.title', { title: this.contract.title }))
 
           }).catch((_err) => {
             let responseStatus = _err.response.status
@@ -376,7 +375,7 @@
         }
       },
 
-      cancelAndclone() {
+      cancelAndClone() {
         this.creating = true
 
         return this.$http.patch('/cooperative/contracts/' + this.contract.id + '/refused/clone_bidding')

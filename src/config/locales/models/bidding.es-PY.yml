@@ -1,0 +1,71 @@
+﻿es-PY:
+  models:
+    bidding:
+      one: Licitación
+      other: Licitaciones
+
+      attributes:
+        id: Código (ID)
+        title: Número
+        description: Descripción (Objeto)
+        kind: Tipo de licitación
+        status: Situación
+        link: Sitio adicional
+        startDate: Fecha de inicio
+        closingDate: Fecha de cierre
+        openingDate: Fecha de apertura
+        drawEndDays: Días corridos para desempate
+        covenantId: Convenio
+        covenant: Convenio
+        deadline: Plazo para entrega/ejecución en días
+        address: Lugar de entrega
+        modality: Modalidad
+        classificationId: Clasificación
+
+        statuses:
+          approved: Liberada
+          canceled: Cancelada
+          closed: Cerrada
+          completed: Completado
+          draft: En borrador
+          failure: Fallida
+          finnished: Concluida
+          ongoing: Abierta
+          under_review: En revisión
+          waiting: A la espera de liberación
+          suspended: Suspendida
+          draw: A la espera de desempate
+          reopened: Reabierta
+          desert: Desierta
+
+        kinds:
+          global: Precio global
+          lot: Precio por lote
+          unitary: Precio individual
+
+        modalities:
+          unrestricted: Abierta/Pública
+          open_invite: Invitación abierta
+          closed_invite: Invitación cerrada
+
+      errors:
+        covenant:
+          missing: El convenio no puede quedar en blanco
+        title:
+          missing: El número no puede quedar en blanco
+        description:
+          missing: La descripción no puede quedar en blanco
+        kind:
+          missing: El tipo de licitación no puede quedar en blanco
+        start_date:
+          missing: La fecha de inicio no puede quedar en blanco
+          invalid: La fecha de inicio no puede ser posterior la fecha de cierre y no puede ser anterior o igual a la fecha de hoy.
+        closing_date:
+          missing: La fecha de cierre no puede quedar en blanco
+          invalid: La fecha de cierre no puede ser anterior o igual a la fecha de hoy.
+        opening_date:
+          missing: La fecha de apertura no puede quedar en blanco
+        invites:
+          invalid: Es necesario invitar a, por lo menos, un proveedor.
+        lot_group_items:
+          too_many: Solo se permite un ítem por lote en licitaciones unitarias

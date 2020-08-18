@@ -93,7 +93,8 @@
 
     .search-selected-list
       template(v-if="resultList.length == 0")
-        .hint.text-center Busque pelo nome da classificação
+        .hint.text-center
+          | {{ $t('biddings.invites.search_by_classification_name') }}
       template(v-else)
         span.search-item-badge(v-for="item in sortedClassificationList" @click="updateList(item)")
           i.fa.fa-close-thin.mr-1
@@ -105,11 +106,12 @@
           li(v-for="result in filteredResults" @click="updateList(result)")
             | {{ result.text }}
         template(v-else-if="search != ''")
-          li.hint.text-center Nenhum resultado encontrado.
+          li.hint.text-center
+            | {{ $t('biddings.invites.no_results') }}
 
     .search-button-container.u-full-width
       .button.button-primary.button-apply-filter(@click="triggerSearch")
-        | Aplicar filtro
+        | {{ $t('biddings.invites.apply_filter') }}
 
 </template>
 

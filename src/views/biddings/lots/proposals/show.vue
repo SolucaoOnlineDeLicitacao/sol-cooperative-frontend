@@ -141,7 +141,7 @@
           {
             route: { name: 'invites', params: {} },
             icon: 'fa-envelope',
-            text: 'Convites',
+            text: this.$t('biddings.lots.index.tabs.invites'),
             active: false,
           }
         ]

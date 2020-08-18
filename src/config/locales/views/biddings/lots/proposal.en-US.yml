@@ -1,0 +1,84 @@
+﻿en-US:
+  biddings:
+    lots:
+      proposals:
+        index:
+          title: Proposals
+          empty: No proposal received
+          cant_see: Proposal viewing is currently unavailable.
+          lot_group_items_count: 'Items: %{value}'
+          estimated_value: 'Estimated value: %{value}'
+
+        show:
+          general:
+            title: Proposal summary
+            supplier: 'Vendor: %{name}'
+            total: 'Total value: %{value}'
+
+          items:
+            title: List of items and proposals
+            value: 'Unit value:'
+            delivery: 'Value of the shipping fee'
+
+          buttons:
+            accept: Accept
+            refuse: Reject
+
+        _show:
+          proposal_list_item:
+            items:
+              title: List of items and proposals
+              value: 'Unit value:'
+              delivery: 'Value of the shipping fee'
+
+          proposal_alerts:
+            alerts:
+              alert: Pending reviewer assessment.
+              coop_accepted: Proposal accepted
+              refused: Proposal rejected
+              accepted: Winning proposal
+              failure: Proposal with rejected contract
+
+        _index:
+          proposal:
+            total: 'Total value: %{value}'
+            status: 'Situation:'
+
+            proposals:
+              current: Best proposal
+              supplier: 'Vendor:'
+              proposal: Proposal
+
+              alert: Pending reviewer assessment.
+
+              status:
+                coop_accepted: Proposal accepted
+                refused: Proposal rejected
+                accepted: Winning proposal
+                failure: Proposal with rejected contract
+
+              buttons:
+                refuse: Reject
+                view: View
+                accept: Accept
+
+          accept_proposal_overlay:
+            title: Accept Proposal
+            alert: Attention! This action cannot be undone.
+            button: Accept proposal
+
+            notifications:
+              accept:
+                success: Proposal successfully accepted!
+                failure: An error occurred when accepting the proposal.
+
+          refuse_proposal_overlay:
+            title: Reject Proposal
+            alert: Attention! This action cannot be undone.
+            button: Reject proposal
+            label: 'Enter the reason for rejection:'
+
+            notifications:
+              refuse:
+                success: Proposal successfully rejected!
+                failure: An error occurred when rejecting the proposal.

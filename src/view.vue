@@ -83,6 +83,7 @@
   const DEFAULT_ROUTE_TRANSITION_MODE = 'out-in'
 
   import Notification from './views/notifications/index.vue'
+  import auth         from './lib/core/modules/auth'
 
   export default {
     data() {
@@ -197,6 +198,12 @@
 
     mounted: function () {
       document.addEventListener("deviceready", this.onDeviceReady, false)
+    },
+
+    beforeCreate: function() {
+      if (auth.user == null) return
+
+      this.$i18n.locale = auth.user.locale
     },
   }
 

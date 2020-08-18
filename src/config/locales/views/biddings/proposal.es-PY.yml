@@ -1,0 +1,44 @@
+﻿es-PY:
+  biddings:
+    proposals:
+      index:
+        title: Propuestas
+        empty: Ninguna propuesta recibida
+        cant_see: Propuestas no disponibles para visualización en este momento.
+        lot_group_items_count: 'Ítems: %{value}'
+        total: 'Valor total: %{value}'
+        estimated_value: 'Valor estimado: %{value}'
+
+        list:
+          title: Lista de propuestas
+
+        notifications:
+          accept:
+            success: ¡La propuesta ha sido aceptada con éxito!
+            failure: Hubo un error al aceptar la propuesta.
+          refuse:
+            success: ¡La propuesta ha sido rechazada con éxito!
+            failure: Hubo un error al rechazar la propuesta.
+
+      show:
+        general:
+          title: Resumen de la propuesta
+          supplier: 'Proveedor: %{name}'
+          total: 'Valor total: %{value}'
+
+        items:
+          title: Lista de ítems y propuestas
+          value: 'Valor unitario:'
+          delivery: 'Valor del flete'
+
+        buttons:
+          accept: Aceptar
+          refuse: Rechazar
+
+        notifications:
+          accept:
+            success: ¡La propuesta ha sido aceptada con éxito!
+            failure: Hubo un error al aceptar la propuesta.
+          refuse:
+            success: ¡La propuesta ha sido rechazada con éxito!
+            failure: Hubo un error al rechazar la propuesta.

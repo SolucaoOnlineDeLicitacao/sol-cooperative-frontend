@@ -1,0 +1,47 @@
+﻿es-PY:
+  providers:
+    index:
+      title: Proveedores
+      list:
+        title: Lista de proveedores
+      button:
+        new: Nuevo proveedor
+      search:
+        placeholder: Busque por nombre o documento del proveedor
+
+      notifications:
+        destroy:
+          success: Proveedor eliminado con éxito
+          failure: Hubo un error al eliminar al proveedor
+
+    new:
+      title: Nuevo proveedor
+      general:
+        title: Datos del proveedor
+
+      fields:
+        name:
+          placeholder: Informe el nombre del proveedor
+        cnpj:
+          placeholder: Informe el documento
+
+      button:
+        submit: Crear proveedor
+        submitting: Creando proveedor
+
+      notifications:
+        failure: Hubo un error al crear al proveedor
+
+
+    edit:
+      title: Editar proveedor
+
+      notifications:
+        failure: Hubo un error al editar al proveedor
+
+      button:
+        submit: Editar proveedor
+        submitting: Editando proveedor
+
+    show:
+      title: Datos del proveedor

@@ -57,10 +57,12 @@
         li.list-item.mb-1.o-container.row(v-for="(group_item) in group_items" @click="addLotGroupItem(group_item)")
           .container(:class="group_item.used ? 'used' : 'not-used'")
             .group-container
-              label.inline-block Grupo:
+              label.inline-block
+                | {{ $t('models.group_item.attributes.groupName') }}:
               span  {{ group_item.group_name }}
             .item-container
-              label.inline-block Item:
+              label.inline-block
+                | {{ $t('models.group_item.attributes.itemName') }}:
               span  {{ group_item.item_name }}
 
             label.inline-block.list-span.mr-1
@@ -71,7 +73,7 @@
 
           .container(v-if="group_item.used")
             .alert.alert-info
-              | Este item já consta no lote atual
+              | {{ $t('.already_in_the_current_lot') }}
 
 
       ul(v-else)

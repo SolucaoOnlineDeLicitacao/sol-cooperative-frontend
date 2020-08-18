@@ -1,0 +1,14 @@
+﻿en-US:
+  models:
+    additive:
+      one: Additive
+      other: Additives
+
+      attributes:
+        from: Current end date
+        to: New end date
+        bidding: Procurement process
+
+      errors:
+        to:
+          invalid: Invalid date. Date must be later than current end date

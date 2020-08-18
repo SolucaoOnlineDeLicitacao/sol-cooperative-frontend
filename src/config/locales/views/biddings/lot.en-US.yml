@@ -1,0 +1,99 @@
+﻿en-US:
+  biddings:
+    lots:
+      index:
+        title: Lots and items
+        empty: No lot registered
+        lot_group_items_count: 'Items: %{value}'
+
+        button:
+          new: Add lot
+          proposals: View proposals
+          finish: Complete and submit for clearance
+
+        tabs:
+          lots: Lots and items
+          invites: Calls for Bids
+
+        notifications:
+          waiting:
+            success: Procurement process successfully submitted for clearance.
+            failure: An error occurred when submitting the procurement process.
+
+      new:
+        title: New lot
+
+        button:
+          submit: Create lot
+          submitting: Creating lot...
+
+        notifications:
+          failure: Unable to create lot
+          success: Lot successfully created.
+
+      show:
+        edit: Edit lot
+
+        button:
+          proposals: View proposals
+
+        files:
+          title: Lot files
+
+        destroy:
+          button: Delete
+          title: Delete lot
+          body: Are you sure you wish to delete this lot?
+
+        notifications:
+          destroy:
+            failure: Unable to delete lot.
+            success: Lot successfully deleted.
+
+      edit:
+        title: Edit lot
+
+        itemOverlay:
+          title: Available items
+          empty: No item available
+
+        button:
+          submit: Edit lot
+          submitting: Editing lot...
+
+        search:
+          placeholder: Search by cost items
+
+        notifications:
+          failure: Unable to edit lot.
+          success: Lot successfully edited.
+
+      _form:
+        group_item_list_overlay:
+          title: Available items
+          empty: No item available
+          already_in_the_current_lot: This item is already in the current lot
+
+          search:
+            placeholder: Search by cost items
+
+        files-fields:
+          files:
+            title: Lot files
+
+            buttons:
+              add: Add file
+
+        items-fields:
+          items:
+            title: Lot items
+
+            alerts:
+              minimum: At least 1 item.
+
+            buttons:
+              add: Add Item
+              remove: Delete
+        lot-fields:
+          general:
+            title: Lot settings

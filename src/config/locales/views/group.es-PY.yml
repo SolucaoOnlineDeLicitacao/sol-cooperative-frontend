@@ -1,0 +1,11 @@
+﻿es-PY:
+  groups:
+    index:
+      title: Plan de trabajo
+      empty: No se han registrado grupos
+      group_items_count: 'Ítems: %{value}'
+      group_items_value_count: 'Valor total: R$%{value}'
+
+    show:
+      overlay:
+        title: Detalles del ítem

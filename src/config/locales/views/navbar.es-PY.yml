@@ -1,0 +1,20 @@
+﻿es-PY:
+  navbar:
+    app: SOL
+    home: Inicio
+    notification: Notificaciones
+    covenants: Convenios
+    contracts: Contratos
+    biddings: Licitaciones
+    map: Mapa
+    feedbacks: Evaluaciones
+    profile: Mi Perfil
+    button:
+      logout:
+        label: Salir
+        labelOngoing: Saliendo
+
+    notifications:
+      logout:
+        failure: Error al salir...
+        success: ¡Saliendo!

@@ -1,6 +1,10 @@
 pt-BR:
   biddings:
     invites:
+      search_by_classification_name: Busque pelo nome da classificação
+      no_results: Nenhum resultado encontrado.
+      apply_filter: Aplicar filtro
+
       index:
         title: Fornecedores convidados
         pending_title: Convites pendentes
@@ -14,9 +18,6 @@ pt-BR:
           new: Gerenciar convites
           approve: Aprovar
           reprove: Reprovar
-
-        tabs:
-          invites: Convites
 
         overlay:
           accept:

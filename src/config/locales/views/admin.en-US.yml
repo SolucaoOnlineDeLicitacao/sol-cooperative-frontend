@@ -1,0 +1,50 @@
+﻿en-US:
+  admins:
+    index:
+      title: Admin users
+      list:
+        title: List of Admin users
+      button:
+        new: New admin user
+      search:
+        placeholder: Search by user name or email
+
+      notifications:
+        destroy:
+          success: User successfully deleted
+          failure: An error occurred when deleting the user
+
+    new:
+      title: New admin user
+      general:
+        title: User data
+
+      fields:
+        name:
+          placeholder: Enter user name
+        cnpj:
+          placeholder: Enter document
+
+      button:
+        submit: Create admin user
+        submitting: Creating admin user
+
+      notifications:
+        failure: An error occurred when creating the user
+
+
+    edit:
+      title: Edit user
+
+      notifications:
+        failure: An error occurred when editing the user
+
+      button:
+        submit: Edit admin user
+        submitting: Editing admin user
+
+    show:
+      title: User data
+      covenants:
+        title: Covenants
+        description: List of covenants in which the user is a Reviewer

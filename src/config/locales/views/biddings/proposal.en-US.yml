@@ -1,0 +1,44 @@
+﻿en-US:
+  biddings:
+    proposals:
+      index:
+        title: Proposals
+        empty: No proposal received
+        cant_see: Proposal viewing is currently unavailable.
+        lot_group_items_count: 'Items: %{value}'
+        total: 'Total value: %{value}'
+        estimated_value: 'Estimated value: %{value}'
+
+        list:
+          title: List of proposals
+
+        notifications:
+          accept:
+            success: Proposal successfully accepted!
+            failure: An error occurred when accepting the proposal.
+          refuse:
+            success: Proposal successfully rejected!
+            failure: An error occurred when rejecting the proposal.
+
+      show:
+        general:
+          title: Proposal summary
+          supplier: 'Vendor: %{name}'
+          total: 'Total value: %{value}'
+
+        items:
+          title: List of items and proposals
+          value: 'Unit value:'
+          delivery: 'Value of the shipping fee'
+
+        buttons:
+          accept: Accept
+          refuse: Reject
+
+        notifications:
+          accept:
+            success: Proposal successfully accepted!
+            failure: An error occurred when accepting the proposal.
+          refuse:
+            success: Proposal successfully rejected!
+            failure: An error occurred when rejecting the proposal.

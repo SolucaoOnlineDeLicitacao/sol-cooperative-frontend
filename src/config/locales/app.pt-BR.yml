@@ -11,3 +11,7 @@ pt-BR:
 
   options:
     blank: Selecione uma opção
+
+  dialog:
+    back: Voltar
+    destroy: Excluir
