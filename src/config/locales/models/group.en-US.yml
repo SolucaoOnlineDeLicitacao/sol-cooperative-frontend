@@ -9,6 +9,7 @@
         name: Group name
         group_items_count: Total cost items
         items: Cost items
+        items_added: Added items
 
       errors:
         name:

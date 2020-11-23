@@ -77,6 +77,15 @@
           search:
             placeholder: Search by cost items
 
+        group_list_overlay:
+          title: Available groups
+          empty: No group available
+          already_in_the_current_lot: All items with available quantities are already in the current lot
+          items_not_available: No item with quantity available
+
+          search:
+            placeholder: Search by groups
+
         files-fields:
           files:
             title: Lot files
@@ -93,6 +102,7 @@
 
             buttons:
               add: Add Item
+              add_group: Add Group
               remove: Delete
         lot-fields:
           general:

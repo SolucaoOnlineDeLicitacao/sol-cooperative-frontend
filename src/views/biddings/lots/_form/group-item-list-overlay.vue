@@ -148,30 +148,36 @@
 
       addLotGroupItem: function(group_item) {
         let alreadyAdd = false
-        let wasDestroyedIndex = -1
         let currentItem = group_item
 
         this.closeOverlay()
 
         this.lot_group_items.filter(function(elem, index){
           if(elem.group_item_id == currentItem.id) {
+            alreadyAdd = true
+
             if(elem._destroy) {
               elem._destroy = false
-              wasDestroyedIndex = index
-            } else {
-              alreadyAdd = true
             }
           }
         });
 
         if(!alreadyAdd) {
-          let addParams = { group_item_id: currentItem.id, item_name: currentItem.item_name, item_short_name: currentItem.item_short_name, item_unit: currentItem.item_unit, quantity: null, available_quantity: currentItem.available_quantity, total_quantity: currentItem.quantity, _destroy: false }
-
-          if (wasDestroyedIndex >= 0) {
-            this.lot_group_items.splice(wasDestroyedIndex, 1)
+          let addParams = {
+            group_item_id: currentItem.id,
+            item_name: currentItem.item_name,
+            item_short_name: currentItem.item_short_name,
+            item_unit: currentItem.item_unit,
+            quantity: null,
+            available_quantity: currentItem.available_quantity,
+            total_quantity: currentItem.quantity,
+            group_id: currentItem.group_id,
+            _destroy: false
           }
 
-          this.lot_group_items.push(addParams)
+          if (currentItem.available_quantity > 0) {
+            this.lot_group_items.push(addParams)
+          }
         }
       },
     },
