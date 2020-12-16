@@ -7,7 +7,7 @@
     padding: 2px 10px;
     position: absolute;
     right: 0;
-    top: -25px;
+    top: -10px;
     z-index: 2;
 
     font-size: 13px;
@@ -40,8 +40,6 @@
 
   .success-text {
     color: $apple-green;
-    display: block;
-    text-align: left;
 
     .fa-star {
       color: gold;
@@ -51,21 +49,10 @@
   .danger-text {
     color: $danger-color;
   }
-  
-  .container {
-    width: 100%;
-  }
-
-  .span-inline-label {
-    display: block;
-    font-weight: normal;
-    font-size: 80%;
-    color: $greyish-brown-two;
-  }
 </style>
 
 <template lang="pug">
-  li.list-item.row.pb-0
+  li.list-item.row
     .lowest-badge(v-if="proposal.current")
       | {{ $t('.proposals.current') }}
     .container
@@ -75,63 +62,53 @@
       .list-title(v-else)
         | {{ $t('.proposals.proposal') }} {{ index+1 }}
 
-      .list-span.mt-0(v-if="!index && proposal.suppliers")
-        | {{ proposal.suppliers[0].email }}
-      
-      .list-span.mt-0(v-if="!index && proposal.suppliers")
-        | {{ proposal.suppliers[0].phone }}
-
-      .list-span.mt-1
-        span.span-inline-label {{ $t('.total', { value: '' }) }}
-        | {{ $asCurrency(proposal.price_total) }}
+      span.list-span
+        | {{ $t('.total', { value: $asCurrency(proposal.price_total) }) }}
 
       .proposal-actions.mt-1(v-if="proposal.current")
         .button.button-danger.button-refuse-proposal(@click="toggleRefuseOverlay(proposal)")
           | {{ $t('.proposals.buttons.refuse') }}
 
-        router-link.mt-1.mb-0.button(:to="showPath")
+        router-link.button(:to="showPath")
           | {{ $t('.proposals.buttons.view') }}
 
         .button.button-primary.button-accept-proposal(@click="toggleAcceptOverlay(proposal)")
           | {{ $t('.proposals.buttons.accept') }}
 
       .proposal-actions.mt-1(v-else-if="proposal.status == 'coop_accepted'")
-        span.success-text
-          span.span-inline-label {{ $t('.status') }}
-          i.fa.fa-star.mr-1
-          | {{ $t('.proposals.status.coop_accepted') }}
-
-        .alert.alert-success.mb-2.mt-1
+        .alert.alert-success.mb-2
           | {{ $t('.proposals.alert') }}
 
-        router-link.mt-1.mb-0.button.ml-1(:to="showPath")
+        span.success-text
+          | {{ $t('.proposals.status.coop_accepted') }}
+
+        router-link.button.ml-1(:to="showPath")
           | {{ $t('.proposals.buttons.view') }}
 
       .proposal-actions.mt-1(v-else-if="proposal.status == 'coop_refused' || proposal.status == 'refused'")
         span.danger-text
           | {{ $t('.proposals.status.refused') }}
 
-        router-link.mt-1.mb-0.button.ml-1(:to="showPath")
+        router-link.button.ml-1(:to="showPath")
           | {{ $t('.proposals.buttons.view') }}
 
       .proposal-actions.mt-1(v-else-if="proposal.status == 'accepted'")
         span.success-text
-          span.span-inline-label {{ $t('.status') }}
           i.fa.fa-star.mr-1
           | {{ $t('.proposals.status.accepted') }}
 
-        router-link.mt-1.mb-0.button.ml-1(:to="showPath")
+        router-link.button.ml-1(:to="showPath")
           | {{ $t('.proposals.buttons.view') }}
 
       .proposal-actions.mt-1(v-else-if="proposal.status == 'failure'")
         div.danger-text.mb-1
           | {{ $t('.proposals.status.failure') }}
 
-        router-link.mt-1.mb-0.button.ml-1(:to="showPath")
+        router-link.button.ml-1(:to="showPath")
           | {{ $t('.proposals.buttons.view') }}
 
       .proposal-actions.mt-1(v-else-if="seeWithDetails")
-        router-link.mt-1.mb-0.button(:to="showPath")
+        router-link.button(:to="showPath")
           | {{ $t('.proposals.buttons.view') }}
 
     accept-proposal-overlay(:showOverlay="showAcceptOverlay", :item="acceptOverlayItem", @closeOverlay="showAcceptOverlay = false", @success="successAccept", :routeName="routeName")
