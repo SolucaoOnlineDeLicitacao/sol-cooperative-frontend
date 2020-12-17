@@ -1,0 +1,47 @@
+﻿fr-FR:
+  items:
+    index:
+      title: Postes
+      list:
+        title: Liste des postes
+      button:
+        new: Nouveau poste
+      search:
+        placeholder: Cherchez par le nom ou par le document du poste
+
+      notifications:
+        destroy:
+          success: Poster exclu avec succès
+          failure: Il y a eu une erreur lors de l'exclusion du poste
+
+    new:
+      title: Nouveau poste
+      general:
+        title: Données du poste
+
+      fields:
+        name:
+          placeholder: Informez le nom du poste
+        cnpj:
+          placeholder: Informez le document
+
+      button:
+        submit: Créer poste
+        submitting: Création poste
+
+      notifications:
+        failure: Il y a eu une erreur lors de la création du poste
+
+
+    edit:
+      title: Editer poste
+
+      notifications:
+        failure: Il y a eu une erreur lors de l'édition du poste
+
+      button:
+        submit: Editer poste
+        submitting: Edition poste
+
+    show:
+      title: Données du poste

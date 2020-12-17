@@ -1,0 +1,20 @@
+﻿fr-FR:
+  models:
+    proposal:
+      one: Offre
+      other: Offres
+
+      attributes:
+        id: Code (ID)
+        provider: Fournisseur
+        document: Document
+        price_total: Valeur
+
+        statuses:
+          draft: Brouillon
+          sent: Envoyée
+          triage: En séparation
+          coop_refused: Rejetée
+          refused: Rejetée
+          coop_accepted: Acceptée
+          accepted: Acceptée
