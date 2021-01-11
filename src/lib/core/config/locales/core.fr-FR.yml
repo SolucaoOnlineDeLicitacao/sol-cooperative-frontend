@@ -54,7 +54,7 @@
     currency:
       format:
         delimiter: " "
-        format: "%n %u"
+        format: "%u %n" # specific for pt-BR implantation
         precision: 2
         separator: ","
         significant: false

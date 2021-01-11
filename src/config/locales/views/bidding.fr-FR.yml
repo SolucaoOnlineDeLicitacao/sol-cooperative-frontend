@@ -1,12 +1,12 @@
 ﻿fr-FR:
   biddings:
     index:
-      title: Appel d'offres
+      title: Appels d'offres
 
       empty: Aucun appel d'offres n'a été trouvé
 
       list:
-        title: Liste d'appel d'offres
+        title: Liste d'appels d'offres
 
       button:
         new: Nouvel appel d'offres
@@ -31,7 +31,7 @@
       empty_covenants: Association sans conventions. Il n'est pas possible de créer un appel d'offres.
 
       button:
-        submit: Sauvegarder et définir les postes de l'appel d'offres
+        submit: Sauvegarder et définir les éléments de l'appel d'offres
         submitting: Sauvegarde...
 
       notifications:
@@ -78,17 +78,17 @@
 
         card:
           title: Demande d'annulation
-          label: 'Raison de la demande:'
+          label: 'Raison de la demande :'
           answer:
-            label: 'Réponse du réviseur:'
+            label: 'Réponse du réviseur :'
             placeholder: En attente du réviseur
 
         overlay:
           title: Annuler l'appel d'offres
-          alert: Attention! Cette action ne pourra plus être annulée.
+          alert: Attention ! Cette action ne pourra plus être annulée.
           field:
             comment:
-              label: "Décrivez la raison de l'annulation:"
+              label: "Décrivez la raison de l'annulation :"
           button:
             send: Envoyer une demande d'annulation
 
@@ -99,7 +99,7 @@
           alert: Tous les lots de l'appel d'offres %{title} ont échoué.
           field:
             comment:
-              label: "Décrivez la raison de l'échec:"
+              label: "Décrivez la raison de l'échec :"
           button:
             send: Conclure l'appel d'offres
 
@@ -137,9 +137,9 @@
           failure: Il y a eu une erreur lors de l'achevement de l'appel d'offres.
 
         additives:
-          success: Additif créé avec succès!
+          success: Additif créé avec succès !
           failure: Il n'a pas été possible de créer l'additif.
 
       destroy:
         title: Exclure l'appel d'offres
-        body: Vous confirmez l'exclusion de cet appel d'offres?
+        body: Vous confirmez l'exclusion de cet appel d'offres ?

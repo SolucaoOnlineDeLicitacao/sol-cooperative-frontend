@@ -12,5 +12,5 @@
           submitting: La définition...
 
         notifications:
-          success: Contrat signé avec succès!
+          success: Contrat signé avec succès !
           failure: Il a été impossible de mettre à jour le contrat.

@@ -1,7 +1,7 @@
 ﻿fr-FR:
   biddings:
     invites:
-      search_by_classification_name: Cherchez par le nom du classement
+      search_by_classification_name: Cherchez par le nom du classification
       no_results: Aucun résultat n'a été trouvé.
       apply_filter: Appliquer filtre
 
@@ -22,14 +22,14 @@
         overlay:
           accept:
             title: Approuver fournisseur
-            alert: Attention! Cette action ne pourra plus être annulée.
+            alert: Attention ! Cette action ne pourra plus être annulée.
             button: Approuver fournisseur
 
           reprove:
             title: Rejeter fournisseur
-            alert: Attention! Cette action ne pourra plus être annulée.
+            alert: Attention ! Cette action ne pourra plus être annulée.
             button: Rejeter fournisseur
-            label: 'Décrivez la raison du rejet:'
+            label: 'Décrivez la raison du rejet :'
 
           info:
             title: Détails du fournisseur
@@ -54,7 +54,7 @@
         provider:
           title: Fournisseurs disponibles
           empty: Aucun fournisseur disponible
-          filter: Filtrer par classements
+          filter: Filtrer par classification
           taken: Ce fournisseur a déjà été sélectionné
 
         overlay:
@@ -64,10 +64,10 @@
 
         button:
           submit: Sauvegarder les invitations
-          submitting: Sauvegarde...
+          submitting: Sauvegarde l'invitation...
 
         search:
-          placeholder: Cherchez par classements
+          placeholder: Cherchez par classification
 
         item:
           empty: Aucun fournisseur n'a été trouvé

@@ -5,30 +5,30 @@
         title: Offres
         empty: Aucune offre n'a été reçue
         cant_see: Offres non disponibles pour visualisation en ce moment.
-        lot_group_items_count: 'Postes: %{value}'
-        total: 'Valeur totale: %{value}'
-        estimated_value: 'Valeur totale: %{value}'
+        lot_group_items_count: 'Postes : %{value}'
+        total: 'Valeur totale : %{value}'
+        estimated_value: 'Valeur estimée : %{value}'
 
         list:
-          title: Liste d'offres
+          title: Liste des offres
 
         notifications:
           accept:
-            success: Offre acceptée avec succès!
+            success: Offre acceptée avec succès !
             failure: Il y a eu une erreur lors de l'acceptation de l'offre.
           refuse:
-            success: Offre rejetée avec succès!
-            failure: Il y a eu une erreur lors du rejet de l'offre.
+            success: Offre rejetée avec succès !
+            failure: Il y a eu une erreur lors du refus de l'offre.
 
       show:
         general:
           title: Résumé de l'offre
-          supplier: 'Fournisseur: %{name}'
-          total: 'Valeur totale: %{value}'
+          supplier: 'Fournisseur : %{name}'
+          total: 'Valeur totale : %{value}'
 
         items:
-          title: Liste des postes et des offres
-          value: 'Valeur unitaire:'
+          title: Liste des éléments et des offres
+          value: 'Valeur unitaire :'
           delivery: 'Valeur du fret'
 
         buttons:
@@ -37,8 +37,8 @@
 
         notifications:
           accept:
-            success: Offre acceptée avec succès!
+            success: Offre acceptée avec succès !
             failure: Il y a eu une erreur lors de l'acceptation de l'offre.
           refuse:
-            success: Offre rejetée avec succès!
-            failure: Il y a eu une erreur lors du rejet de l'offre.
+            success: Offre rejetée avec succès !
+            failure: Il y a eu une erreur lors du refus de l'offre.

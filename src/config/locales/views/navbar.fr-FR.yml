@@ -17,4 +17,4 @@
     notifications:
       logout:
         failure: Erreur en sortant...
-        success: La sortie!
+        success: La sortie !

@@ -6,16 +6,16 @@
       button:
         submit: Editer intégration
         submitting: Edition intégration
-        import: Forcer intégration
+        import: Forcer l'intégration
         importing: En intégration
 
       notifications:
         cooperative:
           import:
             success: Intégration de l'Association lancée avec succès
-            failure: Il y a eu une erreur lors de l'intégration de l'association
+            failure: Il y a eu une erreur lors de l'initialisation de l'intégration de l'association
 
           update:
             success: Intégration de l'Association modifiée avec succès
-            failure: Il y a eu une erreur lors de l'intégration de l'association
+            failure: Il y a eu une erreur lors de l'edition de l'intégration de l'association
 

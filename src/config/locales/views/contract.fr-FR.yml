@@ -25,7 +25,7 @@
 
       overlay:
         title: Situation du contrat
-        alert: Attention! Cette action ne pourra plus être annulée.
+        alert: Attention ! Cette action ne pourra plus être annulée.
         field:
           status:
             label: Définissez le nouvelle situation du contrat
@@ -71,9 +71,9 @@
         signed:
           description: La situation « signé » indique que le contrat a été signé par toutes les parties.
         completed:
-          description: La situation « achevé » indique que tous les postes ont été livrés par le fournisseur
+          description: La situation « achevé » indique que tous les éléments ont été livrés par le fournisseur
         partial_execution:
-          description: La situation « réalisé partiellement » indique que certains postes n'ont pas été livrés par le fournisseur
+          description: La situation « réalisé partiellement » indique que certains éléments n'ont pas été livrés par le fournisseur
         total_inexecution:
           description: La situation « non réalisation totale » indique qu'aucun poste n'a été livré par le fournisseur
 
@@ -85,11 +85,11 @@
           description: Un nouvel appel d'offres sera créé (en brouillon) avec les éléments relatifs à ce contrat
 
         another:
-          description: Les offres relatives à ces postes seront mises à disposition pour une analyse plus approfondie et la sélection d'un nouveau gagnant
+          description: Les offres relatives à ces éléments seront mises à disposition pour une analyse plus approfondie et la sélection d'un nouveau gagnant
 
       notifications:
         completed:
-          success: Contrat signé avec succès.
+          success: Contrat conclu avec succès.
           failure: Il y a eu une erreur lors de la conclusion du contrat.
 
         total_inexecution:

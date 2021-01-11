@@ -20,7 +20,7 @@
         deadline: Délai de livraison / réalisation en jours
         address: Lieu de livraison
         modality: Modalité
-        classificationId: Classement
+        classificationId: Classification
 
         statuses:
           approved: Libérée
@@ -34,8 +34,8 @@
           under_review: En analyse
           waiting: En attente de libération
           suspended: En suspension
-          draw: En attente d'être départagée
-          reopened: Ré-ouverte
+          draw: En attente de départage
+          reopened: Rouverte
           desert: Déserte
 
         kinds:
@@ -50,21 +50,21 @@
 
       errors:
         covenant:
-          missing: Le champ Convention ne peut rester en blanc
+          missing: Le champ Convention ne peut pas rester en blanc
         title:
-          missing: Le champ Numéro ne peut rester en blanc
+          missing: Le champ Numéro ne peut pas rester en blanc
         description:
-          missing: Le champ Description ne peut rester en blanc
+          missing: Le champ Description ne peut pas rester en blanc
         kind:
-          missing: Le champ Type d'appel d'offres ne peut rester en blanc
+          missing: Le champ Type d'appel d'offres ne peut pas rester en blanc
         start_date:
-          missing: Le champ Date du début ne peut rester en blanc
+          missing: Le champ Date du début ne peut pas rester en blanc
           invalid: La date du début ne peut pas être ultérieure à la date de clôture et ne peut pas être antérieure ou égale à la date d'aujourd'hui.
         closing_date:
-          missing: Le champ Date de clôture ne peut rester en blanc
+          missing: Le champ Date de clôture ne peut pas rester en blanc
           invalid: La date de la clôture ne peut pas être antérieure ou égale à la date d'aujourd'hui.
         opening_date:
-          missing: Le champ Date d'ouverture ne peut rester en blanc
+          missing: Le champ Date d'ouverture ne peut pas rester en blanc
         invites:
           invalid: Au moins un fournisseur doit être invité.
         lot_group_items:

@@ -7,7 +7,7 @@
       button:
         new: Nouvel utilisateur d'Association
       search:
-        placeholder: Chercher par le nom, cpf, téléphone ou adresse e-mail de l'utilisateur
+        placeholder: Chercher par le nom, CPF, téléphone ou adresse e-mail de l'utilisateur
 
       tabs:
         users: Utilisateurs d'association
@@ -45,8 +45,8 @@
         failure: Il y a eu une erreur lors de l'édition de l'utilisateur
 
       button:
-        submit: Editer utilisateur d'administration
-        submitting: Edition utilisateur d'administration
+        submit: Editer utilisateur d'association
+        submitting: Edition utilisateur d'association
 
     show:
       title: Données de l'utilisateur

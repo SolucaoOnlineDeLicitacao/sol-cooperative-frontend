@@ -22,7 +22,7 @@
 
       errors:
         name:
-          missing: Le champ Nom ne peut rester en blanc
+          missing: Le champ Nom ne peut pas rester en blanc
 
         lot_group_items:
           invalid: Vous devez ajouter au moins un poste
