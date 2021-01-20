@@ -148,16 +148,18 @@
 
       addLotGroupItem: function(group_item) {
         let alreadyAdd = false
+        let wasDestroyedIndex = -1
         let currentItem = group_item
 
         this.closeOverlay()
 
         this.lot_group_items.filter(function(elem, index){
           if(elem.group_item_id == currentItem.id) {
-            alreadyAdd = true
-
             if(elem._destroy) {
               elem._destroy = false
+              wasDestroyedIndex = index
+            } else {
+              alreadyAdd = true
             }
           }
         });
@@ -171,13 +173,14 @@
             quantity: null,
             available_quantity: currentItem.available_quantity,
             total_quantity: currentItem.quantity,
-            group_id: currentItem.group_id,
             _destroy: false
           }
 
-          if (currentItem.available_quantity > 0) {
-            this.lot_group_items.push(addParams)
+          if (wasDestroyedIndex >= 0) {
+            this.lot_group_items.splice(wasDestroyedIndex, 1)
           }
+
+          this.lot_group_items.push(addParams)
         }
       },
     },
