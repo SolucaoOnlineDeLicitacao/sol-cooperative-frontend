@@ -81,7 +81,7 @@
           li
             label.list-span {{ $t('.items.delivery') }}
             span
-              | R$ {{ lot_proposal.delivery_price }}
+              | {{ $asCurrency(lot_proposal.delivery_price) }}
 
       .card.mt-2.mb-2(v-if="proposal.current")
         .proposal-actions.mt-1

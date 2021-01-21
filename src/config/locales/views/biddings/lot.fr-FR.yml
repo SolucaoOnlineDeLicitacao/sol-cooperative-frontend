@@ -1,0 +1,109 @@
+﻿fr-FR:
+  biddings:
+    lots:
+      index:
+        title: Lots et postes
+        empty: Aucun lot n'a été enregistré
+        lot_group_items_count: 'Postes : %{value}'
+
+        button:
+          new: Ajouter lot
+          proposals: Exhiber offres
+          finish: Achever et envoyer pour libération
+
+        tabs:
+          lots: Lots et postes
+          invites: Invitations
+
+        notifications:
+          waiting:
+            success: Appel d'offres envoyée pour libération avec succès.
+            failure: Il y a eu une erreur à l'envoi de l'offre.
+
+      new:
+        title: Nouveau lot
+
+        button:
+          submit: Créer lot
+          submitting: Création du lot...
+
+        notifications:
+          failure: Il n'a pas été possible de créer le lot
+          success: Lot créé avec succès.
+
+      show:
+        edit: Editer lot
+
+        button:
+          proposals: Exhiber offres
+
+        files:
+          title: Fichiers du lot
+
+        destroy:
+          button: Exclure
+          title: Exclure lot
+          body: Vous confirmez l'exclusion de ce lot ?
+
+        notifications:
+          destroy:
+            failure: Il n'a pas été possible d'exclure le lot
+            success: Lot exclu avec succès.
+
+      edit:
+        title: Editer lot
+
+        itemOverlay:
+          title: Éléments disponibles
+          empty: Aucun poste disponible
+
+        button:
+          submit: Editer lot
+          submitting: Edition du poste
+
+        search:
+          placeholder: Cherchez par élément de coût
+
+        notifications:
+          failure: Il a été impossible d'éditer le lot.
+          success: Lot édité avec succès.
+
+      _form:
+        group_item_list_overlay:
+          title: Éléments disponibles
+          empty: Aucun poste disponible
+          already_in_the_current_lot: Ce poste fait déjà partie du lot en objet
+
+          search:
+            placeholder: Cherchez par élément de coût
+
+        group_list_overlay:
+          title: Groupes disponibles
+          empty: Aucun groupe disponible
+          already_in_the_current_lot: Tous les éléments avec des quantités disponibles font déjà partie du lot en objet
+          items_not_available: Aucun poste avec quantité disponible
+
+          search:
+            placeholder: Cherchez par groupes
+
+        files-fields:
+          files:
+            title: Fichiers du lot
+
+            buttons:
+              add: Ajouter fichier
+
+        items-fields:
+          items:
+            title: Éléments du lot
+
+            alerts:
+              minimum: Au moins 1 poste.
+
+            buttons:
+              add: Ajouter poste
+              add_group: Ajouter groupe
+              remove: Supprimer
+        lot-fields:
+          general:
+            title: Configurations du lot

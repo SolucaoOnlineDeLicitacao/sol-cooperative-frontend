@@ -1,0 +1,11 @@
+﻿fr-FR:
+  groups:
+    index:
+      title: Plan de travail
+      empty: Aucun groupe enregistré
+      group_items_count: 'Postes : %{value}'
+      group_items_value_count: 'Valeur totale : R$ %{value}'
+
+    show:
+      overlay:
+        title: Détails du poste

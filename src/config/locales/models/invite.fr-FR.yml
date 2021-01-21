@@ -1,0 +1,13 @@
+﻿fr-FR:
+  models:
+    invite:
+      one: Invitation
+      other: Invitations
+
+      attributes:
+        id: Code (ID)
+        comment: Raison
+
+      errors:
+        comment:
+          missing: Raison du rejet est obligatoire

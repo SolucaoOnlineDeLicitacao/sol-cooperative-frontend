@@ -1,0 +1,145 @@
+﻿fr-FR:
+  biddings:
+    index:
+      title: Appels d'offres
+
+      empty: Aucun appel d'offres n'a été trouvé
+
+      list:
+        title: Liste d'appels d'offres
+
+      button:
+        new: Nouvel appel d'offres
+
+      search:
+        placeholder: Chercher par le nom ou par le numéro de l'appel d'offres
+
+      period: Période
+
+      _index:
+        bidding_alerts:
+          waiting: L'appel d'offres est dans la situation %{status}. Attendez que le réviseur libère votre offre.
+          approved: L'appel d'offres est dans la situation %{status}. Attendez la date du début pour que l'appel d'offres soit disponibles pour les fournisseurs.
+          ongoing_and_closed: L'appel d'offres est dans la situation %{status}. À l'heure actuelle, il est possible de visualiser uniquement les valeurs des offres envoyées par les fournisseurs.
+          ongoing: L'appel d'offres est dans la situation %{status}. Attendez la clôture de l'appel d'offres pour visualiser les offres envoyées par les fournisseurs.
+          under_review: L'appel d'offres est dans la situation %{status}. À l'heure actuelle, il est possible de visualiser les offres envoyées par les fournisseurs.
+          draw: L'appel d'offres est dans la situation %{status}. Attendez les jours consécutifs pour le départage pour qu'il soit possible de visualiser les offres.
+
+    new:
+      title: Nouvel appel d'offres
+      general: Configurations générales
+      empty_covenants: Association sans conventions. Il n'est pas possible de créer un appel d'offres.
+
+      button:
+        submit: Sauvegarder et définir les éléments de l'appel d'offres
+        submitting: Sauvegarde...
+
+      notifications:
+        success: Appel d'offres créé avec succès
+        failure: Il y a eu une erreur lors de la création de l'appel d'offres
+
+    edit:
+      button:
+        submit: Sauvegarder l'appel d'offres
+        submitting: Sauvegarde de l'appel d'offres
+
+      notifications:
+        success: Appel d'offres mis à jour avec succès.
+        failure: Il y a eu une erreur lors de la mise à jour de l'appel d'offres.
+
+    show:
+      title: Détails de l'appel d'offres
+
+      general:
+        title: Données de l'appel d'offres
+        closing_date:
+          hint: à compter de la date de clôture
+
+      reproved:
+        alert: "L'appel d'offres a été rejeté par le réviseur pour la raison suivante:"
+
+      additives:
+        list: Liste des additifs
+        new:
+          title: Nouvel additif
+          alert: Lorsque vous créez un nouvel additif pour la date de clôture, le système met à jour la date de clôture actuelle et informe les participants de cet appel d'offres.
+
+        empty: Aucun additif n'a été enregistré.
+        hint: Cliquez pour visualiser les additifs
+
+        overlay:
+          title: 'Changements de la date de clôture:'
+          from: Du
+          to: au
+          new: Nouvel additif
+
+      cancel:
+        button: Annuler l'appel d'offres
+
+        card:
+          title: Demande d'annulation
+          label: 'Raison de la demande :'
+          answer:
+            label: 'Réponse du réviseur :'
+            placeholder: En attente du réviseur
+
+        overlay:
+          title: Annuler l'appel d'offres
+          alert: Attention ! Cette action ne pourra plus être annulée.
+          field:
+            comment:
+              label: "Décrivez la raison de l'annulation :"
+          button:
+            send: Envoyer une demande d'annulation
+
+      failure:
+        button: Conclure l'appel d'offres échoué
+        overlay:
+          title: Conclure l'appel d'offres échoué
+          alert: Tous les lots de l'appel d'offres %{title} ont échoué.
+          field:
+            comment:
+              label: "Décrivez la raison de l'échec :"
+          button:
+            send: Conclure l'appel d'offres
+
+      edit: Editer
+      delete: Exclure
+      empty_address: Non informé
+
+      button:
+        submit: Créer nouvel additif
+        submitting: Création d'un nouvel additif.
+        finish: Conclure l'appel d'offres
+
+      documents:
+        title: Documents
+
+      minute:
+        download: Télécharger ATA
+        not_found: ATA non disponible
+
+      edict:
+        download: Télécharger le Cahier des Charges
+        not_found: Cahier des Charges non disponible
+
+      notifications:
+        destroy:
+          success: Appel d'offres exclu avec succès.
+          failure: Il y a eu une erreur lors de l'exclusion de l'appel d'offres.
+
+        cancel:
+          success: Demande d'annulation envoyée avec succès.
+          failure: Il y a eu une erreur à l'envoi de la demande d'annulation.
+
+        finish:
+          success: Appel d'offres achevé avec succès.
+          failure: Il y a eu une erreur lors de l'achevement de l'appel d'offres.
+
+        additives:
+          success: Additif créé avec succès !
+          failure: Il n'a pas été possible de créer l'additif.
+
+      destroy:
+        title: Exclure l'appel d'offres
+        body: Vous confirmez l'exclusion de cet appel d'offres ?

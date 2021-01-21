@@ -1,0 +1,71 @@
+﻿fr-FR:
+  models:
+    bidding:
+      one: Appel d'offres
+      other: Appels d'offres
+
+      attributes:
+        id: Code (ID)
+        title: Numéro
+        description: Description (Objet)
+        kind: Type d'appel d'offres
+        status: Situation
+        link: Site additionnel
+        startDate: Date du début
+        closingDate: Date de la clôture
+        openingDate: Date de l'ouverture
+        drawEndDays: Jours consécutifs pour le départage
+        covenantId: Convention
+        covenant: Convention
+        deadline: Délai de livraison / réalisation en jours
+        address: Lieu de livraison
+        modality: Modalité
+        classificationId: Classification
+
+        statuses:
+          approved: Libérée
+          canceled: Annulée
+          closed: Fermée
+          completed: Complété
+          draft: En brouillon
+          failure: Échouée
+          finnished: Achevée
+          ongoing: Ouverte
+          under_review: En analyse
+          waiting: En attente de libération
+          suspended: En suspension
+          draw: En attente de départage
+          reopened: Rouverte
+          desert: Déserte
+
+        kinds:
+          global: Prix global
+          lot: Prix par lot
+          unitary: Prix individuel
+
+        modalities:
+          unrestricted: Ouverte/publique
+          open_invite: Invitation ouverte
+          closed_invite: Invitation fermée
+
+      errors:
+        covenant:
+          missing: Le champ Convention ne peut pas rester en blanc
+        title:
+          missing: Le champ Numéro ne peut pas rester en blanc
+        description:
+          missing: Le champ Description ne peut pas rester en blanc
+        kind:
+          missing: Le champ Type d'appel d'offres ne peut pas rester en blanc
+        start_date:
+          missing: Le champ Date du début ne peut pas rester en blanc
+          invalid: La date du début ne peut pas être ultérieure à la date de clôture et ne peut pas être antérieure ou égale à la date d'aujourd'hui.
+        closing_date:
+          missing: Le champ Date de clôture ne peut pas rester en blanc
+          invalid: La date de la clôture ne peut pas être antérieure ou égale à la date d'aujourd'hui.
+        opening_date:
+          missing: Le champ Date d'ouverture ne peut pas rester en blanc
+        invites:
+          invalid: Au moins un fournisseur doit être invité.
+        lot_group_items:
+          too_many: Un seul poste par lot est autorisé dans les offres unitaires
