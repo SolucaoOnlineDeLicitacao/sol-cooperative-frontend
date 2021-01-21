@@ -1,0 +1,20 @@
+﻿fr-FR:
+  navbar:
+    app: SOL
+    home: Accueil
+    notification: Notifications
+    covenants: Conventions
+    contracts: Contrats
+    biddings: Appels d'offres
+    map: Carte
+    feedbacks: Evaluations
+    profile: Mon Profil
+    button:
+      logout:
+        label: Sortir
+        labelOngoing: La sortie
+
+    notifications:
+      logout:
+        failure: Erreur en sortant...
+        success: La sortie !

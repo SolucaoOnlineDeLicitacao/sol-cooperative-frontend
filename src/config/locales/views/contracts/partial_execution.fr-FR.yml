@@ -1,0 +1,16 @@
+﻿fr-FR:
+  contracts:
+    partial_execution:
+      edit:
+        item:
+          title: Elément de coût
+          total_quantity: Quantité soumise
+          total_delivered: Quantité livrée
+
+        button:
+          submit: Définir une nouvelle situation
+          submitting: La définition...
+
+        notifications:
+          success: Contrat signé avec succès !
+          failure: Il a été impossible de mettre à jour le contrat.

@@ -1,0 +1,105 @@
+﻿fr-FR:
+  contracts:
+    index:
+      title: Contrats
+
+      card:
+        title: Contrat %{title}
+
+      empty: Aucun contrat n'a été trouvé.
+
+      list:
+        title: Liste des contrats
+
+      search:
+        placeholder: Cherchez par le numéro du contrat
+
+    show:
+      tabs:
+        contract: Contrat
+        proposal: Offre
+
+      title: Contrat %{title}
+
+      not_found: Contrat non trouvé.
+
+      overlay:
+        title: Situation du contrat
+        alert: Attention ! Cette action ne pourra plus être annulée.
+        field:
+          status:
+            label: Définissez le nouvelle situation du contrat
+            placeholder: Sélectionnez une option
+
+      general:
+        title: Données du contrat
+
+        button:
+          download: Télécharger le contrat original
+
+      signatures:
+        title: Signatures
+        waiting: En attente de signature
+        not_signed: Contrat non signé
+
+      refused:
+        at: 'Contrat refusé en %{value}'
+        title: Actions
+        description: Le contrat a été refusé et pour cette raison il faut choisir la prochaine action.
+        or_line: Ou bien
+        buttons:
+          cancel: Créer un nouvel appel d'offres avec ces postes
+          reload_proposals: Analyser et choisir autre offre
+
+      button:
+        open: Mettre à jour le contrat
+
+        total_inexecution:
+          new: Créer un nouvel appel d'offres avec ces postes
+          another: Choisir une nouvelle offre
+          submit: Définir une nouvelle situation
+
+        partial_execution:
+          submit: Suivant(e)
+
+        completed:
+          submit: Définir une nouvelle situation
+
+      statuses:
+        waiting_signature:
+          description: La situation « en attente de signature » indique que le contrat n'a pas encore été signé par toutes les parties.
+        signed:
+          description: La situation « signé » indique que le contrat a été signé par toutes les parties.
+        completed:
+          description: La situation « achevé » indique que tous les éléments ont été livrés par le fournisseur
+        partial_execution:
+          description: La situation « réalisé partiellement » indique que certains éléments n'ont pas été livrés par le fournisseur
+        total_inexecution:
+          description: La situation « non réalisation totale » indique qu'aucun poste n'a été livré par le fournisseur
+
+      total_inexecution:
+        alert:
+          cant_choose_another: Il n'est pas possible de choisir une novuelle offre parce qu'il n'y a pas d'autres offres.
+
+        new:
+          description: Un nouvel appel d'offres sera créé (en brouillon) avec les éléments relatifs à ce contrat
+
+        another:
+          description: Les offres relatives à ces éléments seront mises à disposition pour une analyse plus approfondie et la sélection d'un nouveau gagnant
+
+      notifications:
+        completed:
+          success: Contrat conclu avec succès.
+          failure: Il y a eu une erreur lors de la conclusion du contrat.
+
+        total_inexecution:
+          success: Contrat mis à jour comme « non réalisation totale » avec succès.
+          failure: Il y a eu une erreur lors de la mise à jour du contrat.
+
+        refused:
+          clone:
+            success: Un nouvel appel d'offres a été créé avec succès
+            failure: Il y a eu une erreur lors de la création du nouvel appel d'offres.
+          proposal:
+            success: Les offres ont été libérées pour analyse.
+            failure: Il y a eu une erreur lors de la libération des offres pour analyse.

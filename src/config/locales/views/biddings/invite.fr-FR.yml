@@ -1,0 +1,77 @@
+﻿fr-FR:
+  biddings:
+    invites:
+      search_by_classification_name: Cherchez par le nom du classification
+      no_results: Aucun résultat n'a été trouvé.
+      apply_filter: Appliquer filtre
+
+      index:
+        title: Fournisseurs invités
+        pending_title: Invitations en suspens
+        reproved_title: Invitations rejetées
+        empty: Aucune invitation n'a été enregistrée
+
+        send:
+          alert: Les fournisseurs seront notifiés çprsque l'appel d'offres sera ouvert.
+
+        button:
+          new: Gérer les invitations
+          approve: Approuver
+          reprove: Rejeter
+
+        overlay:
+          accept:
+            title: Approuver fournisseur
+            alert: Attention ! Cette action ne pourra plus être annulée.
+            button: Approuver fournisseur
+
+          reprove:
+            title: Rejeter fournisseur
+            alert: Attention ! Cette action ne pourra plus être annulée.
+            button: Rejeter fournisseur
+            label: 'Décrivez la raison du rejet :'
+
+          info:
+            title: Détails du fournisseur
+
+        notifications:
+          invite:
+            approved:
+              failure: Il a été impossible d'approuver l'invitation.
+              success: Invitation approuvée avec succès.
+            reproved:
+              failure: Il a été impossible de rejeter l'invitation.
+              success: Invitation rejetée avec succès.
+
+      edit:
+        title: Editer l'invitation
+
+        general:
+          title: Liste des fournisseurs
+          button:
+            add: Ajouter fournisseur
+
+        provider:
+          title: Fournisseurs disponibles
+          empty: Aucun fournisseur disponible
+          filter: Filtrer par classification
+          taken: Ce fournisseur a déjà été sélectionné
+
+        overlay:
+          info:
+            title: Détails du fournisseur
+
+
+        button:
+          submit: Sauvegarder les invitations
+          submitting: Sauvegarde l'invitation...
+
+        search:
+          placeholder: Cherchez par classification
+
+        item:
+          empty: Aucun fournisseur n'a été trouvé
+
+        notifications:
+          failure: Il a été impossible d'éditer l'invitation.
+          success: Invitation éditée avec succès.

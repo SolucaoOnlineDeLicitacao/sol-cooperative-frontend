@@ -1,0 +1,52 @@
+﻿fr-FR:
+  users:
+    index:
+      title: Utilisateurs d'association
+      list:
+        title: Liste des utilisateurs d'association
+      button:
+        new: Nouvel utilisateur d'Association
+      search:
+        placeholder: Chercher par le nom, CPF, téléphone ou adresse e-mail de l'utilisateur
+
+      tabs:
+        users: Utilisateurs d'association
+        suppliers: Utilisateurs de fournisseur
+        admins: Utilisateurs d'administration
+
+      notifications:
+        destroy:
+          success: Utilisateur exclu avec succès
+          failure: Il y a eu une erreur lors de l'exclusion de l'utilisateur
+
+    new:
+      title: Nouvel utilisateur d'Association
+      general:
+        title: Données de l'utilisateur
+
+      fields:
+        name:
+          placeholder: Informez le nom de l'utilisateur
+        cnpj:
+          placeholder: Informez le document
+
+      button:
+        submit: Créer utilisateur d'association
+        submitting: Création utilisateur d'association
+
+      notifications:
+        failure: Il y a eu une erreur lors de la création de l'utilisateur
+
+
+    edit:
+      title: Editer l'utilisateur
+
+      notifications:
+        failure: Il y a eu une erreur lors de l'édition de l'utilisateur
+
+      button:
+        submit: Editer utilisateur d'association
+        submitting: Edition utilisateur d'association
+
+    show:
+      title: Données de l'utilisateur

@@ -1,0 +1,50 @@
+﻿fr-FR:
+  admins:
+    index:
+      title: Utilisateurs d'administration
+      list:
+        title: Liste des utilisateurs d'administration
+      button:
+        new: Nouvel utilisateur d'administration
+      search:
+        placeholder: Chercher par le nom ou par l'adresse e-mail de l'utilisateur
+
+      notifications:
+        destroy:
+          success: Utilisateur exclu avec succès
+          failure: Il y a eu une erreur lors de l'exclusion de l'utilisateur
+
+    new:
+      title: Nouvel utilisateur d'administration
+      general:
+        title: Données de l'utilisateur
+
+      fields:
+        name:
+          placeholder: Informez le nom de l'utilisateur
+        cnpj:
+          placeholder: Informez le document
+
+      button:
+        submit: Créer utilisateur d'administration
+        submitting: Création utilisateur d'administration
+
+      notifications:
+        failure: Il y a eu une erreur lors de la création de l'utilisateur
+
+
+    edit:
+      title: Editer l'utilisateur
+
+      notifications:
+        failure: Il y a eu une erreur lors de l'édition de l'utilisateur
+
+      button:
+        submit: Editer utilisateur d'administration
+        submitting: Edition utilisateur d'administration
+
+    show:
+      title: Données de l'utilisateur
+      covenants:
+        title: Conventions
+        description: Listes des conventions dans lesquelles cet utilisateur agit comme Réviseur

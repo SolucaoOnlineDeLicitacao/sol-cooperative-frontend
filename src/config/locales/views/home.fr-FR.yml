@@ -1,0 +1,24 @@
+﻿fr-FR:
+  home:
+    welcome: "Bienvenue au SOL, nous avons %{count} appels d'offres ouverts !"
+    period: Période
+    loading: En téléchargement...
+    bidding_title: "Appel d'offres nº %{title}"
+    last_biddings: "Mes derniers appels d'offres (%{count})"
+
+    biddings:
+      new: Créer appel d'offres
+      empty: Aucun appel d'offres n'a été trouvé.
+
+    button:
+      logout:
+        label: Sortir
+        labelOngoing: La sortie...
+
+    notifications:
+      echo:
+        failure: Echoless
+      profile:
+        failure: Profil non disponible
+      logout:
+        failure: Il a été impossible de sortir. Essayez encore une fois

@@ -1,0 +1,47 @@
+﻿fr-FR:
+  providers:
+    index:
+      title: Fournisseurs
+      list:
+        title: Liste des fournisseurs
+      button:
+        new: Nouveau fournisseur
+      search:
+        placeholder: Cherchez par le nom ou par le document du fournisseur
+
+      notifications:
+        destroy:
+          success: Fournisseur exclu avec succès
+          failure: Il y a eu une erreur lors de l'exclusion du fournisseur
+
+    new:
+      title: Nouveau fournisseur
+      general:
+        title: Données du fournisseur
+
+      fields:
+        name:
+          placeholder: Informez le nom du fournisseur
+        cnpj:
+          placeholder: Informez le document
+
+      button:
+        submit: Créer fournisseur
+        submitting: Création du fournisseur
+
+      notifications:
+        failure: Il y a eu une erreur lors de la création du fournisseur
+
+
+    edit:
+      title: Editer Fournisseur
+
+      notifications:
+        failure: Il y a eu une erreur lors de l'édition du fournisseur
+
+      button:
+        submit: Editer Fournisseur
+        submitting: Edition du fournisseur
+
+    show:
+      title: Données du fournisseur

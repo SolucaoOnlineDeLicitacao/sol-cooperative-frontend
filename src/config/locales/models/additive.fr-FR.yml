@@ -1,0 +1,14 @@
+﻿fr-FR:
+  models:
+    additive:
+      one: Additif
+      other: Additifs
+
+      attributes:
+        from: Date actuelle de clôture
+        to: Nouvelle date de clôture
+        bidding: Appel d'offres
+
+      errors:
+        to:
+          invalid: Date invalide. La date doit être ultérieure à la date actuelle de clôture

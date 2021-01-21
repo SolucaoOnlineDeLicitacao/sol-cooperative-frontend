@@ -1,0 +1,84 @@
+﻿fr-FR:
+  biddings:
+    lots:
+      proposals:
+        index:
+          title: Offres
+          empty: Aucune offre n'a été reçue
+          cant_see: Offres non disponibles pour visualisation en ce moment.
+          lot_group_items_count: 'Postes : %{value}'
+          estimated_value: 'Valeur estimée : %{value}'
+
+        show:
+          general:
+            title: Résumé de l'offre
+            supplier: 'Fournisseur : %{name}'
+            total: 'Valeur totale : %{value}'
+
+          items:
+            title: Liste des éléments et des offres
+            value: 'Valeur unitaire :'
+            delivery: 'Valeur du fret'
+
+          buttons:
+            accept: Accepter
+            refuse: Refuser
+
+        _show:
+          proposal_list_item:
+            items:
+              title: Liste des éléments et des offres
+              value: 'Valeur unitaire :'
+              delivery: 'Valeur du fret'
+
+          proposal_alerts:
+            alerts:
+              alert: En attente de l'évaluation du réviseur.
+              coop_accepted: Offre acceptée
+              refused: Offre refusée
+              accepted: Offre gagnante
+              failure: Offre avec contrat refusé
+
+        _index:
+          proposal:
+            total: 'Valeur totale : %{value}'
+            status: 'Situation :'
+
+            proposals:
+              current: Meilleur offre
+              supplier: 'Fournisseur :'
+              proposal: Offre
+
+              alert: En attente de l'évaluation du réviseur.
+
+              status:
+                coop_accepted: Offre acceptée
+                refused: Offre refusée
+                accepted: Offre gagnante
+                failure: Offre avec contrat refusé
+
+              buttons:
+                refuse: Refuser
+                view: Visualiser
+                accept: Accepter
+
+          accept_proposal_overlay:
+            title: Accepter l'offre
+            alert: Attention ! Cette action ne pourra plus être annulée.
+            button: Accepter l'offre
+
+            notifications:
+              accept:
+                success: Offre acceptée avec succès !
+                failure: Il y a eu une erreur lors de l'acceptation de l'offre.
+
+          refuse_proposal_overlay:
+            title: Refuser l'offre
+            alert: Attention ! Cette action ne pourra plus être annulée.
+            button: Refuser l'offre
+            label: 'Décrivez la raison du refus :'
+
+            notifications:
+              refuse:
+                success: Offre rejetée avec succès !
+                failure: Il y a eu une erreur lors du refus de l'offre.
