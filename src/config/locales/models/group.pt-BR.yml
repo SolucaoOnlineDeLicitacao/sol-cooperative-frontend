@@ -9,7 +9,6 @@ pt-BR:
         name: Nome do grupo
         group_items_count: Total de Itens de custo
         items: Itens de custo
-        items_added: Itens adicionados
 
       errors:
         name:
