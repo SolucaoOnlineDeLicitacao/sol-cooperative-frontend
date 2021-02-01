@@ -9,7 +9,6 @@
         name: Nom du groupe
         group_items_count: Total des éléments de coût
         items: Éléments de coût
-        items_added: Éléments ajoutés
 
       errors:
         name:
