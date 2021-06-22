@@ -143,7 +143,7 @@
       .button.button-danger.ml-1(@click="destroyDialog(bidding.id)" v-if="bidding.status == 'draft' || bidding.status == 'waiting'")
         | {{ $t('.delete') }}
 
-      .button.button-danger(@click="toggleCancelOverlay(bidding)" v-else-if="bidding.status != 'suspended' && bidding.status != 'canceled' && !(bidding.cancel_comment && !bidding.comment_response)")
+      .button.button-danger(@click="toggleCancelOverlay(bidding)" v-else-if="bidding.status != 'suspended' && bidding.status != 'canceled' && bidding.status != 'desert' && !(bidding.cancel_comment && !bidding.comment_response)")
         | {{ $t('.cancel.button') }}
 
       .row
