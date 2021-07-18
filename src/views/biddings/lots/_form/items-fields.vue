@@ -89,7 +89,7 @@
 
     group-item-overlay(:showOverlay="showOverlayInfo", :overlayItem="overlayItem", @closeOverlay="showOverlayInfo = false")
 
-    group-item-list-overlay(:showOverlay="showOverlay", :covenantId="covenantId", :lot_group_items="lot_group_items", @closeOverlay="showOverlay = false")
+    group-item-list-overlay(:showOverlay="showOverlay", v-if="showOverlay", :covenantId="covenantId", :lot_group_items="lot_group_items", @closeOverlay="showOverlay = false")
 
 </template>
 
