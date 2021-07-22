@@ -17,12 +17,12 @@
 </style>
 
 <template lang="pug">
-  overlay-wnd(v-if="showOverlay", @close="closeOverlay", @open="fetchSearch")
+  overlay-wnd(v-if="showOverlay", @close="closeOverlay")
     .container
       h4.mt-2.text-center {{ $t('.title') }}
       hr.mt-0.mb-2.o-container
 
-      form.filter(ref="formSearch", method="get" action="" @submit.prevent="fetchSearch")
+      form.filter(ref="formSearch", method="get" @submit.prevent="fetchSearch")
         .search-field
           input-field(
             type="text",
@@ -81,9 +81,20 @@
           .container
             | {{ $t('.empty') }}
 
+      .row
+        .twelve.columns
+          paginator(
+            v-model="page",
+            :prev="prevPageLink",
+            :next="nextPageLink",
+            v-if="groupItemsCount"
+          )
+
 </template>
 
 <script>
+  import parseLinkHeaders from "parse-link-header";
+
   export default {
     props: {
       showOverlay: { type: Boolean, default: false },
@@ -98,7 +109,22 @@
         group_items: null,
         groupItemsCount: 0,
         isLoadingOverlay: true,
+        params: {},
+
+        // pagination
+        page: 1,
+        firstPageLink: '',
+        prevPageLink:  '',
+        nextPageLink:  '',
+        lastPageLink:  '',
+        totalPages:    1,
       }
+    },
+
+    computed: {
+      fetchParams() {
+        return this.params
+      },
     },
 
     methods: {
@@ -108,18 +134,18 @@
       },
 
       fetchSearch() {
-        this.getGroupItems({ search: this.search })
+        this.getGroupItems(this.search)
       },
 
       getGroupItems(oParams) {
         this.isLoadingOverlay = true
-
-        let params = oParams
-
-        return this.$http.get('/cooperative/covenants/' + this.covenantId + '/group_items', { params })
+        const page = oParams ? 1 : this.page
+        return this.$http.get(`/cooperative/covenants/${this.covenantId}/group_items/?page=${page}&search=${oParams}`)
           .then((response) => {
             this.group_items = response.data
             this.groupItemsCount = this.group_items.length
+
+            this.updatePagination(response)
 
             let activeLotGroupItems = this.lot_group_items.filter((item) => {
               if(!item._destroy) {
@@ -138,12 +164,21 @@
             })
 
             this.isLoadingOverlay = false
-
           }).catch((_err) => {
             this.error = _err
             console.error(_err)
           })
+      },
 
+      updatePagination(aResponse) {
+        this.page = aResponse.headers['x-page']
+        this.totalPages = aResponse.headers['x-total']
+        let links = parseLinkHeaders(aResponse.headers.link) || {}
+
+        this.firstPageLink = _.dig(links, 'first', 'page')
+        this.prevPageLink = _.dig(links, 'prev', 'page')
+        this.nextPageLink = _.dig(links, 'next', 'page')
+        this.lastPageLink = _.dig(links, 'last', 'page')
       },
 
       addLotGroupItem: function(group_item) {
@@ -183,8 +218,25 @@
           this.lot_group_items.push(addParams)
         }
       },
+
+      init() {
+        this.params = this.$route.query
+      }
     },
 
+    created: function () {
+      this.init();
+    },
 
+    watch: {
+      fetchParams() {
+        this.fetchSearch()
+      },
+
+      page() {
+        this.params = Object.assign({}, this.params, { page: this.page });
+        // this.updateRoute()
+      }
+    }
   }
 </script>
